@@ -1,0 +1,277 @@
+(AI-torch) PS C:\Users\Naveen\OneDrive\Desktop\MetaHeuristics\HiPC> & C:/Users/Naveen/anaconda3/envs/AI-torch/python.exe c:/Users/Naveen/OneDrive/Desktop/MetaHeuristics/HiPC/bench_cobyla.py
+Fixed Parallelized COBYLA Benchmark
+========================================
+Method: Constrained Optimization BY Linear Approximations
+Max evaluations per run: 1,000,000
+Max time per run: 300 seconds
+Parallel workers: 8 cores
+
+Running 200 experiments in parallel...
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+Completed [OK]: Sphere 10D run 1: 4.59e-09 (416 evals, 0.0s)
+Completed [OK]: Sphere 10D run 2: 8.51e-09 (425 evals, 0.0s)
+Completed [OK]: Sphere 10D run 3: 7.72e-09 (394 evals, 0.0s)
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+Completed [OK]: Sphere 10D run 4: 1.16e-08 (429 evals, 0.0s)
+Completed [OK]: Sphere 10D run 5: 1.02e-08 (431 evals, 0.0s)
+Completed [OK]: Sphere 10D run 6: 8.45e-09 (399 evals, 0.0s)
+Completed [OK]: Sphere 10D run 7: 2.50e-09 (404 evals, 0.0s)
+Completed [OK]: Sphere 10D run 8: 4.86e-09 (407 evals, 0.0s)
+Completed [OK]: Sphere 10D run 9: 6.01e-09 (375 evals, 0.0s)
+Completed [OK]: Sphere 10D run 10: 9.57e-09 (421 evals, 0.0s)
+Progress: 10/200 completed
+Completed [OK]: Sphere 30D run 2: 1.72e-08 (1370 evals, 0.2s)
+Completed [OK]: Sphere 30D run 1: 1.86e-08 (1431 evals, 0.2s)
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+C:\Users\Naveen\anaconda3\envs\AI-torch\lib\site-packages\scipy\optimize\_minimize.py:719: OptimizeWarning: Unknown solver options: rhoend
+  res = _minimize_cobyla(fun, x0, args, constraints, callback=callback,
+Completed [OK]: Sphere 30D run 3: 2.70e-08 (1362 evals, 0.3s)
+Completed [OK]: Sphere 30D run 4: 2.11e-08 (1389 evals, 0.3s)
+Completed [OK]: Sphere 30D run 6: 1.51e-08 (1377 evals, 0.2s)
+Completed [OK]: Sphere 30D run 5: 2.36e-08 (1291 evals, 0.2s)
+Completed [OK]: Sphere 30D run 7: 2.63e-08 (1353 evals, 0.2s)
+Completed [OK]: Sphere 30D run 8: 1.62e-08 (1274 evals, 0.2s)
+Completed [OK]: Sphere 30D run 10: 2.09e-08 (1294 evals, 0.2s)
+Completed [OK]: Sphere 30D run 9: 1.72e-08 (1346 evals, 0.3s)
+Progress: 20/200 completed
+Completed [OK]: Sphere 50D run 4: 3.22e-08 (2465 evals, 1.0s)
+Completed [OK]: Sphere 50D run 1: 2.91e-08 (2607 evals, 1.0s)
+Completed [OK]: Sphere 50D run 7: 3.16e-08 (2305 evals, 0.9s)
+Completed [OK]: Sphere 50D run 3: 2.42e-08 (2513 evals, 1.0s)
+Completed [OK]: Sphere 50D run 2: 3.59e-08 (2475 evals, 1.1s)
+Completed [OK]: Sphere 50D run 6: 2.77e-08 (2532 evals, 1.0s)
+Completed [OK]: Sphere 50D run 5: 2.53e-08 (2526 evals, 1.0s)
+Completed [OK]: Sphere 50D run 8: 2.72e-08 (2425 evals, 1.0s)
+Completed [OK]: Sphere 50D run 10: 3.50e-08 (2213 evals, 0.9s)
+Completed [OK]: Sphere 50D run 9: 2.62e-08 (2449 evals, 1.1s)
+Progress: 30/200 completed
+Completed [OK]: Sphere 100D run 4: 4.53e-08 (5671 evals, 12.8s)
+Completed [OK]: Sphere 100D run 5: 4.96e-08 (6019 evals, 13.4s)
+Completed [OK]: Sphere 100D run 3: 3.20e-08 (6201 evals, 14.1s)
+Completed [OK]: Rastrigin 10D run 1: 4.18e+01 (195 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 2: 6.07e+01 (211 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 3: 1.79e+01 (209 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 4: 3.88e+01 (230 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 5: 5.07e+01 (191 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 6: 5.57e+01 (220 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 7: 6.07e+01 (200 evals, 0.0s)
+Progress: 40/200 completed
+Completed [OK]: Sphere 100D run 1: 4.69e-08 (5963 evals, 14.3s)
+Completed [OK]: Rastrigin 10D run 8: 7.66e+01 (198 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 9: 4.88e+01 (182 evals, 0.0s)
+Completed [OK]: Rastrigin 10D run 10: 3.38e+01 (273 evals, 0.0s)
+Completed [OK]: Rastrigin 30D run 1: 1.11e+02 (822 evals, 0.1s)
+Completed [OK]: Rastrigin 30D run 2: 2.01e+02 (836 evals, 0.2s)
+Completed [OK]: Rastrigin 30D run 3: 2.08e+02 (835 evals, 0.1s)
+Completed [OK]: Rastrigin 30D run 4: 1.28e+02 (858 evals, 0.2s)
+Completed [OK]: Sphere 100D run 2: 4.58e-08 (6262 evals, 14.7s)
+Completed [OK]: Rastrigin 30D run 5: 1.57e+02 (830 evals, 0.2s)
+Progress: 50/200 completed
+Completed [OK]: Rastrigin 30D run 6: 1.35e+02 (861 evals, 0.2s)
+Completed [OK]: Rastrigin 30D run 7: 1.38e+02 (846 evals, 0.1s)
+Completed [OK]: Rastrigin 30D run 8: 1.76e+02 (774 evals, 0.1s)
+Completed [OK]: Rastrigin 30D run 9: 1.95e+02 (799 evals, 0.2s)
+Completed [OK]: Rastrigin 30D run 10: 7.36e+01 (829 evals, 0.1s)
+Completed [OK]: Sphere 100D run 6: 4.06e-08 (6504 evals, 15.0s)
+Completed [OK]: Sphere 100D run 7: 4.57e-08 (6166 evals, 14.4s)
+Completed [OK]: Sphere 100D run 8: 5.08e-08 (6298 evals, 14.4s)
+Completed [OK]: Rastrigin 50D run 1: 2.16e+02 (1528 evals, 0.6s)
+Completed [OK]: Rastrigin 50D run 2: 4.12e+02 (1553 evals, 0.6s)
+Progress: 60/200 completed
+Completed [OK]: Rastrigin 50D run 3: 2.86e+02 (1549 evals, 0.7s)
+Completed [OK]: Rastrigin 50D run 4: 2.03e+02 (1471 evals, 0.5s)
+Completed [OK]: Rastrigin 50D run 5: 3.65e+02 (1582 evals, 0.6s)
+Completed [OK]: Rastrigin 50D run 7: 2.97e+02 (1522 evals, 0.5s)
+Completed [OK]: Rastrigin 50D run 6: 2.20e+02 (1577 evals, 0.7s)
+Completed [OK]: Rastrigin 50D run 8: 2.54e+02 (1501 evals, 0.7s)
+Completed [OK]: Rastrigin 50D run 9: 2.69e+02 (1526 evals, 0.6s)
+Completed [OK]: Rastrigin 50D run 10: 1.84e+02 (1558 evals, 0.6s)
+Completed [OK]: Rastrigin 100D run 3: 6.58e+02 (3860 evals, 9.1s)
+Completed [OK]: Rastrigin 100D run 1: 5.95e+02 (4258 evals, 9.9s)
+Progress: 70/200 completed
+Completed [OK]: Rastrigin 100D run 4: 5.23e+02 (4186 evals, 9.7s)
+Completed [OK]: Rastrigin 100D run 2: 6.62e+02 (4149 evals, 10.1s)
+Completed [OK]: Rastrigin 100D run 6: 5.48e+02 (4134 evals, 10.0s)
+Completed [OK]: Sphere 100D run 10: 4.39e-08 (5630 evals, 13.4s)
+Completed [OK]: Rastrigin 100D run 5: 6.44e+02 (4693 evals, 11.3s)
+Completed [OK]: Rosenbrock 10D run 2: 4.01e+00 (23519 evals, 1.3s)
+Completed [OK]: Sphere 100D run 9: 4.11e-08 (6783 evals, 16.0s)
+Completed [OK]: Rosenbrock 10D run 3: 1.72e-02 (26167 evals, 1.4s)
+Completed [OK]: Rosenbrock 10D run 4: 1.76e-02 (19017 evals, 1.1s)
+Completed [OK]: Rosenbrock 10D run 1: 4.01e+00 (64424 evals, 3.7s)
+Progress: 80/200 completed
+Completed [OK]: Rosenbrock 10D run 5: 1.35e-02 (19102 evals, 1.2s)
+Completed [OK]: Rosenbrock 10D run 6: 4.01e+00 (18865 evals, 1.1s)
+Completed [OK]: Rosenbrock 10D run 7: 1.67e-02 (18279 evals, 1.0s)
+Completed [OK]: Rosenbrock 10D run 10: 2.15e-02 (16948 evals, 1.0s)
+Completed [OK]: Rosenbrock 10D run 9: 4.02e+00 (16794 evals, 1.1s)
+Completed [OK]: Rosenbrock 10D run 8: 1.65e-02 (80733 evals, 4.8s)
+Completed [OK]: Rastrigin 100D run 10: 5.60e+02 (3614 evals, 8.8s)
+Completed [OK]: Rastrigin 100D run 7: 5.97e+02 (4060 evals, 9.9s)
+Completed [OK]: Rastrigin 100D run 8: 5.33e+02 (4551 evals, 11.0s)
+Completed [OK]: Rastrigin 100D run 9: 5.56e+02 (4636 evals, 11.4s)
+Progress: 90/200 completed
+Completed [OK]: Rosenbrock 30D run 1: 1.33e-02 (96133 evals, 16.8s)
+Completed [OK]: Rosenbrock 30D run 3: 1.52e-02 (93197 evals, 16.1s)
+Completed [OK]: Rosenbrock 30D run 2: 1.29e-02 (96979 evals, 16.7s)
+Completed [OK]: Rosenbrock 30D run 6: 1.82e-02 (91596 evals, 15.7s)
+Completed [OK]: Rosenbrock 30D run 4: 1.52e-02 (94225 evals, 16.7s)
+Completed [OK]: Rosenbrock 30D run 5: 1.19e-02 (96274 evals, 16.7s)
+Completed [OK]: Rosenbrock 30D run 7: 1.27e-02 (95722 evals, 16.6s)
+Completed [OK]: Rosenbrock 30D run 8: 4.00e+00 (137703 evals, 24.8s)
+Completed [OK]: Rosenbrock 30D run 10: 1.33e-02 (94933 evals, 17.8s)
+Completed [OK]: Rosenbrock 30D run 9: 1.10e-02 (116350 evals, 21.3s)
+Progress: 100/200 completed
+Completed [OK]: Rosenbrock 50D run 2: 5.62e-03 (111687 evals, 51.9s)
+Completed [OK]: Rosenbrock 50D run 1: 4.00e+00 (228829 evals, 101.0s)
+Completed [OK]: Rosenbrock 50D run 5: 1.47e-02 (228696 evals, 102.1s)
+Completed [OK]: Rosenbrock 50D run 4: 1.20e-02 (235736 evals, 104.9s)
+Completed [OK]: Rosenbrock 50D run 3: 9.31e-03 (240043 evals, 107.1s)
+Completed [OK]: Rosenbrock 50D run 8: 1.34e-02 (230998 evals, 102.6s)
+Completed [OK]: Rosenbrock 50D run 6: 4.00e+00 (245320 evals, 110.4s)
+Completed [OK]: Rosenbrock 50D run 9: 9.48e-03 (237344 evals, 101.4s)
+Completed [OK]: Rosenbrock 50D run 10: 1.17e-02 (143767 evals, 61.4s)
+Completed [TIMEOUT]: Rosenbrock 50D run 7: 1.49e+02 (530666 evals, 300.0s)
+Progress: 110/200 completed
+Completed [TIMEOUT]: Rosenbrock 100D run 1: 8.15e+01 (67157 evals, 300.0s)
+Completed [TIMEOUT]: Rosenbrock 100D run 2: 8.92e+01 (66708 evals, 300.0s)
+Completed [TIMEOUT]: Rosenbrock 100D run 3: 2.69e+02 (66305 evals, 300.1s)
+Completed [OK]: Ackley 10D run 1: 1.95e+01 (207 evals, 0.1s)
+Completed [OK]: Ackley 10D run 2: 1.95e+01 (206 evals, 0.1s)
+Completed [OK]: Ackley 10D run 3: 1.86e+01 (200 evals, 0.1s)
+Completed [OK]: Ackley 10D run 4: 1.95e+01 (200 evals, 0.2s)
+Completed [OK]: Ackley 10D run 5: 1.95e+01 (208 evals, 0.2s)
+Completed [OK]: Ackley 10D run 6: 1.92e+01 (202 evals, 0.1s)
+Completed [OK]: Ackley 10D run 7: 1.93e+01 (210 evals, 0.1s)
+Progress: 120/200 completed
+Completed [OK]: Ackley 10D run 8: 1.95e+01 (194 evals, 0.1s)
+Completed [OK]: Ackley 10D run 9: 1.94e+01 (203 evals, 0.2s)
+Completed [OK]: Ackley 10D run 10: 1.92e+01 (192 evals, 0.1s)
+Completed [OK]: Ackley 30D run 1: 1.95e+01 (804 evals, 1.2s)
+Completed [OK]: Ackley 30D run 2: 1.96e+01 (804 evals, 1.4s)
+Completed [OK]: Ackley 30D run 3: 1.94e+01 (803 evals, 1.4s)
+Completed [OK]: Ackley 30D run 4: 1.95e+01 (810 evals, 1.2s)
+Completed [OK]: Ackley 30D run 5: 1.95e+01 (814 evals, 1.4s)
+Completed [OK]: Ackley 30D run 6: 1.96e+01 (786 evals, 1.2s)
+Completed [OK]: Ackley 30D run 7: 1.91e+01 (890 evals, 1.8s)
+Progress: 130/200 completed
+Completed [TIMEOUT]: Rosenbrock 100D run 4: 8.95e+01 (61612 evals, 300.1s)
+Completed [OK]: Ackley 30D run 8: 1.95e+01 (820 evals, 1.4s)
+Completed [OK]: Ackley 30D run 9: 1.95e+01 (769 evals, 1.4s)
+Completed [TIMEOUT]: Rosenbrock 100D run 5: 8.24e+01 (60765 evals, 300.1s)
+Completed [OK]: Ackley 30D run 10: 1.91e+01 (902 evals, 1.4s)
+Completed [OK]: Ackley 50D run 3: 1.96e+01 (1477 evals, 5.4s)
+Completed [OK]: Ackley 50D run 2: 1.96e+01 (1606 evals, 6.0s)
+Completed [OK]: Ackley 50D run 1: 1.95e+01 (1623 evals, 6.1s)
+Completed [OK]: Ackley 50D run 4: 1.95e+01 (1469 evals, 6.0s)
+Completed [OK]: Ackley 50D run 5: 1.96e+01 (1576 evals, 6.2s)
+Progress: 140/200 completed
+Completed [OK]: Ackley 50D run 6: 1.95e+01 (1554 evals, 6.3s)
+Completed [OK]: Ackley 50D run 7: 1.94e+01 (1659 evals, 6.0s)
+Completed [OK]: Ackley 50D run 9: 1.94e+01 (1344 evals, 5.2s)
+Completed [OK]: Ackley 50D run 8: 1.95e+01 (1466 evals, 5.5s)
+Completed [OK]: Ackley 50D run 10: 1.93e+01 (1643 evals, 6.0s)
+Completed [TIMEOUT]: Rosenbrock 100D run 6: 1.73e+02 (49478 evals, 300.0s)
+Completed [TIMEOUT]: Rosenbrock 100D run 7: 9.22e+01 (47422 evals, 300.0s)
+Completed [OK]: Ackley 100D run 1: 1.96e+01 (4301 evals, 50.2s)
+Completed [OK]: Ackley 100D run 2: 1.95e+01 (4408 evals, 50.3s)
+Completed [OK]: Ackley 100D run 3: 1.96e+01 (4292 evals, 45.0s)
+Progress: 150/200 completed
+Completed [OK]: Ackley 100D run 4: 1.95e+01 (4395 evals, 38.3s)
+Completed [OK]: Ackley 100D run 5: 1.95e+01 (4924 evals, 34.6s)
+Completed [OK]: Ackley 100D run 7: 1.95e+01 (3729 evals, 10.2s)
+Completed [OK]: Griewank 10D run 1: 6.02e+01 (1079 evals, 0.1s)
+Completed [OK]: Griewank 10D run 2: 9.72e+00 (1446 evals, 0.1s)
+Completed [OK]: Griewank 10D run 3: 6.10e+00 (1067 evals, 0.1s)
+Completed [OK]: Griewank 10D run 4: 2.71e+00 (1663 evals, 0.1s)
+Completed [OK]: Griewank 10D run 5: 1.56e+00 (1590 evals, 0.1s)
+Completed [OK]: Griewank 10D run 6: 1.20e+01 (1404 evals, 0.1s)
+Completed [OK]: Griewank 10D run 7: 9.68e+00 (1345 evals, 0.1s)
+Progress: 160/200 completed
+Completed [OK]: Griewank 10D run 8: 4.27e+01 (1036 evals, 0.1s)
+Completed [OK]: Griewank 10D run 9: 4.34e+01 (892 evals, 0.1s)
+Completed [OK]: Griewank 10D run 10: 8.67e+01 (824 evals, 0.0s)
+Completed [OK]: Griewank 30D run 1: 7.63e-09 (3484 evals, 0.7s)
+Completed [OK]: Ackley 100D run 6: 1.94e+01 (4414 evals, 12.4s)
+Completed [OK]: Griewank 30D run 2: 9.86e-03 (3762 evals, 0.8s)
+Completed [OK]: Griewank 30D run 3: 7.40e-03 (3472 evals, 0.8s)
+Completed [OK]: Ackley 100D run 9: 1.94e+01 (4084 evals, 11.4s)
+Completed [OK]: Griewank 30D run 4: 1.23e-02 (3573 evals, 0.8s)
+Completed [OK]: Griewank 30D run 5: 3.51e-09 (3513 evals, 0.7s)
+Progress: 170/200 completed
+Completed [OK]: Ackley 100D run 8: 1.95e+01 (4595 evals, 13.1s)
+Completed [OK]: Griewank 30D run 7: 7.40e-03 (3351 evals, 0.6s)
+Completed [OK]: Griewank 30D run 6: 7.40e-03 (3687 evals, 0.9s)
+Completed [OK]: Griewank 30D run 8: 1.34e-09 (3555 evals, 0.8s)
+Completed [OK]: Griewank 30D run 9: 2.51e-09 (3555 evals, 0.8s)
+Completed [OK]: Griewank 30D run 10: 7.40e-03 (3391 evals, 0.7s)
+Completed [OK]: Ackley 100D run 10: 1.94e+01 (3946 evals, 11.2s)
+Completed [OK]: Griewank 50D run 1: 3.99e-09 (6474 evals, 3.4s)
+Completed [OK]: Griewank 50D run 3: 7.40e-03 (6360 evals, 3.3s)
+Completed [OK]: Griewank 50D run 2: 4.90e-09 (6466 evals, 3.3s)
+Progress: 180/200 completed
+Completed [OK]: Griewank 50D run 4: 1.23e-02 (6537 evals, 3.4s)
+Completed [OK]: Griewank 50D run 5: 2.42e-09 (6729 evals, 3.6s)
+Completed [OK]: Griewank 50D run 6: 7.40e-03 (6411 evals, 3.2s)
+Completed [OK]: Griewank 50D run 7: 7.40e-03 (6437 evals, 3.4s)
+Completed [OK]: Griewank 50D run 8: 3.40e-09 (6839 evals, 3.6s)
+Completed [OK]: Griewank 50D run 9: 5.05e-09 (6194 evals, 3.3s)
+Completed [OK]: Griewank 50D run 10: 3.75e-09 (6311 evals, 3.2s)
+Completed [OK]: Griewank 100D run 1: 2.43e-09 (15990 evals, 45.4s)
+Completed [OK]: Griewank 100D run 2: 4.10e-09 (15983 evals, 45.1s)
+Completed [OK]: Griewank 100D run 3: 5.48e-09 (17048 evals, 47.5s)
+Progress: 190/200 completed
+Completed [OK]: Griewank 100D run 4: 2.22e-09 (16685 evals, 47.5s)
+Completed [OK]: Griewank 100D run 5: 2.07e-09 (16917 evals, 47.8s)
+Completed [OK]: Griewank 100D run 7: 7.40e-03 (16337 evals, 43.2s)
+Completed [OK]: Griewank 100D run 8: 2.30e-09 (16006 evals, 42.0s)
+Completed [OK]: Griewank 100D run 10: 2.37e-09 (16043 evals, 41.4s)
+Completed [OK]: Griewank 100D run 9: 4.12e-09 (15911 evals, 42.6s)
+Completed [OK]: Griewank 100D run 6: 2.76e-09 (16890 evals, 45.5s)
+Completed [TIMEOUT]: Rosenbrock 100D run 8: 8.13e+01 (64978 evals, 300.0s)
+Completed [TIMEOUT]: Rosenbrock 100D run 9: 7.35e+01 (105495 evals, 300.0s)
+Completed [TIMEOUT]: Rosenbrock 100D run 10: 7.71e+01 (105661 evals, 300.0s)
+Progress: 200/200 completed
+
+Completed 200 experiments in 759.7 seconds
+
+Fixed COBYLA Results Summary:
+----------------------------------------
+      Sphere 10D: 7.40e-09 (success: 100.0%, timeout: 0.0%, evals: 410)
+      Sphere 30D: 2.03e-08 (success: 100.0%, timeout: 0.0%, evals: 1349)
+      Sphere 50D: 2.94e-08 (success: 100.0%, timeout: 0.0%, evals: 2451)
+      Sphere 100D: 4.42e-08 (success: 100.0%, timeout: 0.0%, evals: 6150)
+   Rastrigin 10D: 4.86e+01 (success: 0.0%, timeout: 0.0%, evals: 211)
+   Rastrigin 30D: 1.52e+02 (success: 0.0%, timeout: 0.0%, evals: 829)
+   Rastrigin 50D: 2.71e+02 (success: 0.0%, timeout: 0.0%, evals: 1537)
+   Rastrigin 100D: 5.88e+02 (success: 0.0%, timeout: 0.0%, evals: 4214)
+  Rosenbrock 10D: 1.61e+00 (success: 0.0%, timeout: 0.0%, evals: 30385)
+  Rosenbrock 30D: 4.12e-01 (success: 0.0%, timeout: 0.0%, evals: 101311)
+  Rosenbrock 50D: 1.57e+01 (success: 30.0%, timeout: 10.0%, evals: 243309)
+  Rosenbrock 100D: 1.11e+02 (success: 0.0%, timeout: 100.0%, evals: 69558)
+      Ackley 10D: 1.93e+01 (success: 0.0%, timeout: 0.0%, evals: 202)
+      Ackley 30D: 1.94e+01 (success: 0.0%, timeout: 0.0%, evals: 820)
+      Ackley 50D: 1.95e+01 (success: 0.0%, timeout: 0.0%, evals: 1542)
+      Ackley 100D: 1.95e+01 (success: 0.0%, timeout: 0.0%, evals: 4309)
+    Griewank 10D: 2.75e+01 (success: 0.0%, timeout: 0.0%, evals: 1235)
+    Griewank 30D: 5.18e-03 (success: 90.0%, timeout: 0.0%, evals: 3534)
+    Griewank 50D: 3.45e-03 (success: 90.0%, timeout: 0.0%, evals: 6476)
+    Griewank 100D: 7.40e-04 (success: 100.0%, timeout: 0.0%, evals: 16381)
+
+Results saved to benchmark_results/
+- cobyla_fixed_raw_results.csv
+- cobyla_fixed_convergence_curves.csv
+- cobyla_fixed_summary_statistics.csv
+
+Total execution time: 759.7 seconds

@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use HELIOS in your research, please cite it using the metadata below."
+authors:
+  - family-names: "Yelahanka Naveen"
+    given-names: "Nikhil"
+    email: nikhilylkn@gmail.com
+    affiliation: "Department of Computer Science and Engineering, Ramaiah Institute of Technology, Bengaluru, India"
+  - family-names: "Bhandarkar"
+    given-names: "Abhay"
+    email: abhaybhandarkar@gmail.com
+    affiliation: "Department of Computer Science and Engineering, Ramaiah Institute of Technology, Bengaluru, India"
+title: "Helios: A Co-designed Landscape-Aware Optimization System Bridging Serial Intelligence and GPU Parallelism"
+version: "1.0.0"
+date-released: "2026-04-29"
+license: Apache-2.0
+doi: 10.1007/978-3-032-23607-4_30
+url: "https://link.springer.com/chapter/10.1007/978-3-032-23607-4_30"
+preferred-citation:
+  type: conference-paper
+  authors:
+    - family-names: "Yelahanka Naveen"
+      given-names: "Nikhil"
+    - family-names: "Bhandarkar"
+      given-names: "Abhay"
+  title: "Helios: A Co-designed Landscape-Aware Optimization System Bridging Serial Intelligence and GPU Parallelism"
+  collection-title: "Applications of Evolutionary Computation"
+  collection-doi: 10.1007/978-3-032-23607-4
+  editors:
+    - family-names: "Garcia-Sanchez"
+      given-names: "Pablo"
+    - family-names: "Diaz Alvarez"
+      given-names: "Josefa"
+    - family-names: "Murphy"
+      given-names: "Aidan"
+  publisher:
+    name: "Springer, Cham"
+  series: "Lecture Notes in Computer Science"
+  volume: 16525
+  start: 489
+  end: 503
+  year: 2026
+  doi: 10.1007/978-3-032-23607-4_30
+  isbn: "978-3-032-23607-4"
+  notes: "Nominated for Best Student Paper Award; Authors recognized as Outstanding Students of EvoStar 2026"

@@ -1,0 +1,7 @@
+Function,MP_Best_Fitness,AS_Best_Fitness,MP_Mean_Fitness,AS_Mean_Fitness,Mean_Speedup,Mean_Quality_Ratio,MP_Success_Rate,AS_Success_Rate
+Ackley,0.0,0.0,0.0,3.8071,6.3038,504289882378068.8,1.0,0.0
+Griewank,0.0,0.0,0.0054,0.0,8.5901,inf,0.4,1.0
+Levy,0.0,0.0,0.0,0.0117,4.7455,7.825231101935658e+29,1.0,0.8
+Rastrigin,0.0,0.0,0.0,0.0,10.8977,inf,1.0,1.0
+Rosenbrock,0.0036,0.0,0.0339,11.3651,6.2458,2159.4052,0.0,0.6
+Sphere,0.0,0.0,0.0,0.0,14.1511,3.6182258107893666e+42,1.0,1.0

@@ -1,0 +1,247 @@
+nikhilylkn@dev-test:~/RWO$ python3 run_comparison.py 
+GPU Device: <CUDA Device 0>
+GPU Memory: 22.0 GB
+
+================================================================================
+HELIOS DEFINITIVE BENCHMARK: Helios-MP vs Helios-AS
+================================================================================
+Configuration:
+  Problem Dimension: 30
+  Runs per Function: 5
+  Helios-MP Population: 50,000
+  Helios-AS Population: 1000
+  Functions: ['Rastrigin', 'Ackley', 'Rosenbrock', 'Griewank', 'Levy', 'Sphere']
+
+Running Experiments:   0%|                                                                          | 0/60 [00:00<?, ?run/s]
+BENCHMARKING: RASTRIGIN
+------------------------------------------------------------
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:20<00:00, 48.00iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+   Run 1 - Helios-MP: 0.00e+00 (SUCCESS) in 20.8s91/1000 [00:20<00:00, 48.84iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:53<00:00, 10.72iter/s, Best=1.1369e-13, Evals=101675, SF=499, LS=1, PE=0, BS=0, ExS=0.110, 
+   Run 1 - Helios-AS: 1.14e-13 (SUCCESS) in 233.2ser/s, Best=1.1369e-13, Evals=101675, SF=499, LS=1, PE=0, BS=0, ExS=0.110, 
+   Run 1 - Speedup: 11.2x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:20<00:00, 47.98iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+   Run 2 - Helios-MP: 0.00e+00 (SUCCESS) in 20.8s91/1000 [00:20<00:00, 48.54iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:49<00:00, 10.91iter/s, Best=1.1369e-13, Evals=86650, SF=1799, LS=1, PE=0, BS=0, ExS=0.370, 
+   Run 2 - Helios-AS: 1.14e-13 (SUCCESS) in 229.2ser/s, Best=1.1369e-13, Evals=86650, SF=1799, LS=1, PE=0, BS=0, ExS=0.370, 
+   Run 2 - Speedup: 11.0x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:20<00:00, 48.02iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+   Run 3 - Helios-MP: 0.00e+00 (SUCCESS) in 20.8s91/1000 [00:20<00:00, 44.45iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:49<00:00, 10.92iter/s, Best=1.1369e-13, Evals=91923, SF=1699, LS=1, PE=0, BS=0, ExS=0.350, 
+   Run 3 - Helios-AS: 1.14e-13 (SUCCESS) in 229.0ser/s, Best=1.1369e-13, Evals=91923, SF=1699, LS=1, PE=0, BS=0, ExS=0.350, 
+   Run 3 - Speedup: 11.0x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:20<00:00, 48.08iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+   Run 4 - Helios-MP: 0.00e+00 (SUCCESS) in 20.8s91/1000 [00:20<00:00, 47.71iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+Helios-AS:  92%|▉| 2301/2500 [03:40<00:19, 10.43iter/s, Best=1.1369e-13, Evals=84460, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 4 - Helios-AS: 1.14e-13 (SUCCESS) in 220.7ser/s, Best=1.1369e-13, Evals=84460, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 4 - Speedup: 10.6x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:20<00:00, 47.87iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+   Run 5 - Helios-MP: 0.00e+00 (SUCCESS) in 20.9s91/1000 [00:20<00:00, 48.01iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+Helios-AS:  96%|▉| 2401/2500 [03:43<00:09, 10.76iter/s, Best=1.1369e-13, Evals=83957, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 5 - Helios-AS: 1.14e-13 (SUCCESS) in 223.2ser/s, Best=1.1369e-13, Evals=83957, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 5 - Speedup: 10.7x
+Rastrigin R5 - Helios-AS:  17%|█████████▌                                               | 10/60 [20:40<1:56:59, 140.39s/run]
+   SUMMARY for Rastrigin:
+      Helios-MP: Best=0.00e+00, Success=100%, Time=20.8s
+      Helios-AS: Best=1.14e-13, Success=100%, Time=227.1s
+      Average Speedup: 10.9x
+
+BENCHMARKING: ACKLEY
+------------------------------------------------------------
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:30<00:00, 33.13iter/s, Best=3.9968e-15, Regime=C, Evals=99.55M]
+   Run 1 - Helios-MP: 4.00e-15 (SUCCESS) in 30.2s91/1000 [00:30<00:00, 27.80iter/s, Best=3.9968e-15, Regime=C, Evals=99.55M]
+Helios-AS:  92%|▉| 2301/2500 [03:34<00:18, 10.70iter/s, Best=1.8408e-08, Evals=94899, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, 
+   Run 1 - Helios-AS: 1.84e-08 (FAIL) in 215.0s9iter/s, Best=1.8408e-08, Evals=94899, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, 
+   Run 1 - Speedup: 7.1x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:30<00:00, 33.18iter/s, Best=3.9968e-15, Regime=C, Evals=99.55M]
+   Run 2 - Helios-MP: 4.00e-15 (SUCCESS) in 30.1s91/1000 [00:30<00:00, 28.43iter/s, Best=3.9968e-15, Regime=C, Evals=99.55M]
+Helios-AS:  96%|▉| 2401/2500 [03:46<00:09, 10.61iter/s, Best=1.9605e-08, Evals=98477, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, 
+   Run 2 - Helios-AS: 1.96e-08 (FAIL) in 226.2s5iter/s, Best=1.9605e-08, Evals=98477, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, 
+   Run 2 - Speedup: 7.5x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:30<00:00, 33.27iter/s, Best=7.5495e-15, Regime=C, Evals=99.55M]
+   Run 3 - Helios-MP: 7.55e-15 (SUCCESS) in 30.1s98/1000 [00:30<00:00, 32.90iter/s, Best=7.5495e-15, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [02:29<00:00, 16.71iter/s, Best=1.9005e+01, Evals=2702, SF=99, LS=0, PE=45, BS=5, ExS=0.030, Ex
+   Run 3 - Helios-AS: 1.90e+01 (FAIL) in 149.6s8iter/s, Best=1.9005e+01, Evals=2702, SF=99, LS=0, PE=45, BS=5, ExS=0.030, Ex
+   Run 3 - Speedup: 5.0x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:30<00:00, 33.32iter/s, Best=7.5495e-15, Regime=C, Evals=99.55M]
+   Run 4 - Helios-MP: 7.55e-15 (SUCCESS) in 30.0s98/1000 [00:30<00:00, 33.05iter/s, Best=7.5495e-15, Regime=C, Evals=99.55M]
+Helios-AS:  86%|▊| 2151/2500 [02:29<00:24, 14.34iter/s, Best=3.0407e-02, Evals=51206, SF=2001, LS=0, PE=2, BS=5, ExS=0.410, 
+   Run 4 - Helios-AS: 3.04e-02 (FAIL) in 150.0s2iter/s, Best=3.0407e-02, Evals=51206, SF=2001, LS=0, PE=2, BS=5, ExS=0.410, 
+   Run 4 - Speedup: 5.0x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:30<00:00, 33.02iter/s, Best=3.9968e-15, Regime=C, Evals=99.55M]
+   Run 5 - Helios-MP: 4.00e-15 (SUCCESS) in 30.3s98/1000 [00:30<00:00, 32.82iter/s, Best=3.9968e-15, Regime=C, Evals=99.55M]
+Helios-AS:  88%|▉| 2201/2500 [03:29<00:28, 10.51iter/s, Best=1.9264e-08, Evals=83519, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, 
+   Run 5 - Helios-AS: 1.93e-08 (FAIL) in 209.5s2iter/s, Best=1.9264e-08, Evals=83519, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, 
+   Run 5 - Speedup: 6.9x
+Ackley R5 - Helios-AS:  33%|████████████████████                                        | 20/60 [39:01<1:22:17, 123.44s/run]
+   SUMMARY for Ackley:
+      Helios-MP: Best=4.00e-15, Success=100%, Time=30.1s
+      Helios-AS: Best=1.84e-08, Success=0%, Time=190.1s
+      Average Speedup: 6.3x
+
+BENCHMARKING: ROSENBROCK
+------------------------------------------------------------
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:25<00:00, 39.42iter/s, Best=4.4120e-02, Regime=C, Evals=99.55M]
+   Run 1 - Helios-MP: 4.41e-02 (FAIL) in 25.4s| 991/1000 [00:25<00:00, 35.06iter/s, Best=4.4120e-02, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [01:52<00:00, 22.13iter/s, Best=2.8273e-11, Evals=27653, SF=599, LS=18, PE=2, BS=0, ExS=0.130, 
+   Run 1 - Helios-AS: 2.83e-11 (SUCCESS) in 113.0ser/s, Best=2.8273e-11, Evals=27653, SF=599, LS=18, PE=2, BS=0, ExS=0.130, 
+   Run 1 - Speedup: 4.5x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:25<00:00, 39.46iter/s, Best=9.8867e-03, Regime=C, Evals=99.55M]
+   Run 2 - Helios-MP: 9.89e-03 (FAIL) in 25.3s| 991/1000 [00:25<00:00, 34.81iter/s, Best=9.8867e-03, Regime=C, Evals=99.55M]
+Helios-AS:  84%|▊| 2101/2500 [03:00<00:34, 11.65iter/s, Best=2.8681e+01, Evals=140372, SF=2001, LS=0, PE=1, BS=0, ExS=0.410,
+   Run 2 - Helios-AS: 2.87e+01 (FAIL) in 180.3s0iter/s, Best=2.8681e+01, Evals=140372, SF=2001, LS=0, PE=1, BS=0, ExS=0.410,
+   Run 2 - Speedup: 7.1x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:25<00:00, 39.33iter/s, Best=1.0664e-01, Regime=C, Evals=99.55M]
+   Run 3 - Helios-MP: 1.07e-01 (FAIL) in 25.4s| 991/1000 [00:25<00:00, 34.41iter/s, Best=1.0664e-01, Regime=C, Evals=99.55M]
+Helios-AS:  88%|▉| 2201/2500 [03:08<00:25, 11.68iter/s, Best=1.9689e-11, Evals=36901, SF=2001, LS=1, PE=2, BS=0, ExS=0.410, 
+   Run 3 - Helios-AS: 1.97e-11 (SUCCESS) in 188.5ser/s, Best=1.9689e-11, Evals=36901, SF=2001, LS=1, PE=2, BS=0, ExS=0.410, 
+   Run 3 - Speedup: 7.4x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:25<00:00, 39.27iter/s, Best=5.4375e-03, Regime=C, Evals=99.55M]
+   Run 4 - Helios-MP: 5.44e-03 (FAIL) in 25.5s| 991/1000 [00:25<00:00, 33.84iter/s, Best=5.4375e-03, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [01:45<00:00, 23.64iter/s, Best=1.8845e-11, Evals=32237, SF=99, LS=24, PE=1, BS=0, ExS=0.030, E
+   Run 4 - Helios-AS: 1.88e-11 (SUCCESS) in 105.7ser/s, Best=1.8845e-11, Evals=32237, SF=99, LS=24, PE=1, BS=0, ExS=0.030, E
+   Run 4 - Speedup: 4.2x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:25<00:00, 39.40iter/s, Best=3.5643e-03, Regime=C, Evals=99.55M]
+   Run 5 - Helios-MP: 3.56e-03 (FAIL) in 25.4s| 991/1000 [00:25<00:00, 34.80iter/s, Best=3.5643e-03, Regime=C, Evals=99.55M]
+Helios-AS:  90%|▉| 2251/2500 [03:25<00:22, 10.96iter/s, Best=2.8144e+01, Evals=136188, SF=2001, LS=0, PE=4, BS=0, ExS=0.410,
+   Run 5 - Helios-AS: 2.81e+01 (FAIL) in 205.4s9iter/s, Best=2.8144e+01, Evals=136188, SF=2001, LS=0, PE=4, BS=0, ExS=0.410,
+   Run 5 - Speedup: 8.1x
+Rosenbrock R5 - Helios-AS:  50%|█████████████████████████████                             | 30/60 [54:21<56:22, 112.76s/run]
+   SUMMARY for Rosenbrock:
+      Helios-MP: Best=3.56e-03, Success=0%, Time=25.4s
+      Helios-AS: Best=1.88e-11, Success=60%, Time=158.6s
+      Average Speedup: 6.2x
+
+BENCHMARKING: GRIEWANK
+------------------------------------------------------------
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:26<00:00, 38.41iter/s, Best=7.3960e-03, Regime=C, Evals=99.55M]
+   Run 1 - Helios-MP: 7.40e-03 (FAIL) in 26.0s| 998/1000 [00:26<00:00, 38.20iter/s, Best=7.3960e-03, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:53<00:00, 10.69iter/s, Best=3.7748e-15, Evals=87867, SF=1999, LS=5, PE=0, BS=5, ExS=0.410, 
+   Run 1 - Helios-AS: 3.77e-15 (SUCCESS) in 233.8ser/s, Best=3.7748e-15, Evals=87867, SF=1999, LS=5, PE=0, BS=5, ExS=0.410, 
+   Run 1 - Speedup: 9.0x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:26<00:00, 38.33iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+   Run 2 - Helios-MP: 0.00e+00 (SUCCESS) in 26.1s98/1000 [00:26<00:00, 37.29iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+Helios-AS:  92%|▉| 2301/2500 [03:45<00:19, 10.21iter/s, Best=3.1086e-15, Evals=74405, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, 
+   Run 2 - Helios-AS: 3.11e-15 (SUCCESS) in 225.3ser/s, Best=3.1086e-15, Evals=74405, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, 
+   Run 2 - Speedup: 8.6x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:25<00:00, 38.55iter/s, Best=1.2321e-02, Regime=C, Evals=99.55M]
+   Run 3 - Helios-MP: 1.23e-02 (FAIL) in 25.9s| 991/1000 [00:25<00:00, 33.18iter/s, Best=1.2321e-02, Regime=C, Evals=99.55M]
+Helios-AS:  96%|▉| 2401/2500 [03:44<00:09, 10.69iter/s, Best=2.3315e-15, Evals=76466, SF=2001, LS=3, PE=1, BS=5, ExS=0.410, 
+   Run 3 - Helios-AS: 2.33e-15 (SUCCESS) in 224.7ser/s, Best=2.3315e-15, Evals=76466, SF=2001, LS=3, PE=1, BS=5, ExS=0.410, 
+   Run 3 - Speedup: 8.7x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:26<00:00, 38.45iter/s, Best=7.3960e-03, Regime=C, Evals=99.55M]
+   Run 4 - Helios-MP: 7.40e-03 (FAIL) in 26.0s| 991/1000 [00:26<00:00, 33.53iter/s, Best=7.3960e-03, Regime=C, Evals=99.55M]
+Helios-AS:  88%|▉| 2201/2500 [03:36<00:29, 10.19iter/s, Best=2.4425e-15, Evals=86366, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, 
+   Run 4 - Helios-AS: 2.44e-15 (SUCCESS) in 216.1ser/s, Best=2.4425e-15, Evals=86366, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, 
+   Run 4 - Speedup: 8.3x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:25<00:00, 38.66iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+   Run 5 - Helios-MP: 0.00e+00 (SUCCESS) in 25.9s98/1000 [00:25<00:00, 37.72iter/s, Best=0.0000e+00, Regime=C, Evals=99.55M]
+Helios-AS:  92%|▉| 2301/2500 [03:36<00:18, 10.64iter/s, Best=2.3315e-15, Evals=77128, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, 
+   Run 5 - Helios-AS: 2.33e-15 (SUCCESS) in 216.3ser/s, Best=2.3315e-15, Evals=77128, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, 
+   Run 5 - Speedup: 8.4x
+Griewank R5 - Helios-AS:  67%|██████████████████████████████████████▋                   | 40/60 [1:15:08<46:08, 138.44s/run]
+   SUMMARY for Griewank:
+      Helios-MP: Best=0.00e+00, Success=40%, Time=26.0s
+      Helios-AS: Best=2.33e-15, Success=100%, Time=223.3s
+      Average Speedup: 8.6x
+
+BENCHMARKING: LEVY
+------------------------------------------------------------
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:44<00:00, 22.26iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+   Run 1 - Helios-MP: 1.50e-32 (SUCCESS) in 44.9s96/1000 [00:44<00:00, 21.33iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:46<00:00, 11.02iter/s, Best=3.5919e-16, Evals=63224, SF=999, LS=7, PE=2, BS=0, ExS=0.210, E
+   Run 1 - Helios-AS: 3.59e-16 (SUCCESS) in 226.8ser/s, Best=3.5919e-16, Evals=63224, SF=999, LS=7, PE=2, BS=0, ExS=0.210, E
+   Run 1 - Speedup: 5.0x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:44<00:00, 22.45iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+   Run 2 - Helios-MP: 1.50e-32 (SUCCESS) in 44.5s96/1000 [00:44<00:00, 21.32iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:23<00:00, 12.31iter/s, Best=5.8680e-02, Evals=60530, SF=49, LS=5, PE=19, BS=0, ExS=0.020, E
+   Run 2 - Helios-AS: 5.87e-02 (FAIL) in 203.0s4iter/s, Best=5.8680e-02, Evals=60530, SF=49, LS=5, PE=19, BS=0, ExS=0.020, E
+   Run 2 - Speedup: 4.6x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:44<00:00, 22.31iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+   Run 3 - Helios-MP: 1.50e-32 (SUCCESS) in 44.8s96/1000 [00:44<00:00, 21.30iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:40<00:00, 11.33iter/s, Best=3.8682e-16, Evals=54781, SF=499, LS=5, PE=14, BS=0, ExS=0.110, 
+   Run 3 - Helios-AS: 3.87e-16 (SUCCESS) in 220.7ser/s, Best=3.8682e-16, Evals=54781, SF=499, LS=5, PE=14, BS=0, ExS=0.110, 
+   Run 3 - Speedup: 4.9x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:44<00:00, 22.37iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+   Run 4 - Helios-MP: 1.50e-32 (SUCCESS) in 44.7s91/1000 [00:44<00:00, 19.32iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:27<00:00, 12.07iter/s, Best=3.8298e-16, Evals=56939, SF=99, LS=7, PE=14, BS=0, ExS=0.030, E
+   Run 4 - Helios-AS: 3.83e-16 (SUCCESS) in 207.1ser/s, Best=3.8298e-16, Evals=56939, SF=99, LS=7, PE=14, BS=0, ExS=0.030, E
+   Run 4 - Speedup: 4.6x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:44<00:00, 22.28iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+   Run 5 - Helios-MP: 1.50e-32 (SUCCESS) in 44.9s91/1000 [00:44<00:00, 19.22iter/s, Best=1.4998e-32, Regime=C, Evals=99.55M]
+Helios-AS: 100%|█| 2500/2500 [03:24<00:00, 12.20iter/s, Best=3.9714e-16, Evals=50660, SF=99, LS=4, PE=31, BS=0, ExS=0.030, E
+   Run 5 - Helios-AS: 3.97e-16 (SUCCESS) in 204.9ser/s, Best=3.9714e-16, Evals=50660, SF=99, LS=4, PE=31, BS=0, ExS=0.030, E
+   Run 5 - Speedup: 4.6x
+Levy R5 - Helios-AS:  83%|███████████████████████████████████████████████████▋          | 50/60 [1:36:35<23:27, 140.78s/run]
+   SUMMARY for Levy:
+      Helios-MP: Best=1.50e-32, Success=100%, Time=44.8s
+      Helios-AS: Best=3.59e-16, Success=80%, Time=212.5s
+      Average Speedup: 4.7x
+
+BENCHMARKING: SPHERE
+------------------------------------------------------------
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:15<00:00, 64.53iter/s, Best=1.1108e-58, Regime=C, Evals=99.55M]
+   Run 1 - Helios-MP: 1.11e-58 (SUCCESS) in 15.5s91/1000 [00:15<00:00, 65.58iter/s, Best=1.1108e-58, Regime=C, Evals=99.55M]
+Helios-AS:  92%|▉| 2301/2500 [03:31<00:18, 10.89iter/s, Best=7.5000e-16, Evals=85983, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 1 - Helios-AS: 7.50e-16 (SUCCESS) in 211.3ser/s, Best=7.5000e-16, Evals=85983, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 1 - Speedup: 13.6x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:15<00:00, 65.35iter/s, Best=1.4656e-58, Regime=C, Evals=99.55M]
+   Run 2 - Helios-MP: 1.47e-58 (SUCCESS) in 15.3s91/1000 [00:15<00:00, 66.08iter/s, Best=1.4656e-58, Regime=C, Evals=99.55M]
+Helios-AS:  92%|▉| 2301/2500 [03:41<00:19, 10.38iter/s, Best=7.5000e-16, Evals=79308, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 2 - Helios-AS: 7.50e-16 (SUCCESS) in 221.7ser/s, Best=7.5000e-16, Evals=79308, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 2 - Speedup: 14.5x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:15<00:00, 65.08iter/s, Best=1.2425e-58, Regime=C, Evals=99.55M]
+   Run 3 - Helios-MP: 1.24e-58 (SUCCESS) in 15.4s91/1000 [00:15<00:00, 66.25iter/s, Best=1.2425e-58, Regime=C, Evals=99.55M]
+Helios-AS:  96%|▉| 2401/2500 [03:41<00:09, 10.84iter/s, Best=7.5000e-16, Evals=82456, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 3 - Helios-AS: 7.50e-16 (SUCCESS) in 221.6ser/s, Best=7.5000e-16, Evals=82456, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, 
+   Run 3 - Speedup: 14.4x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:15<00:00, 65.20iter/s, Best=7.4218e-57, Regime=C, Evals=99.55M]
+   Run 4 - Helios-MP: 7.42e-57 (SUCCESS) in 15.3s91/1000 [00:15<00:00, 65.70iter/s, Best=7.4218e-57, Regime=C, Evals=99.55M]
+Helios-AS:  96%|▉| 2401/2500 [03:51<00:09, 10.36iter/s, Best=7.3357e-16, Evals=94662, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, 
+   Run 4 - Helios-AS: 7.34e-16 (SUCCESS) in 231.7ser/s, Best=7.3357e-16, Evals=94662, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, 
+   Run 4 - Speedup: 15.1x
+Helios-MP: 100%|█████████████████████████████| 1000/1000 [00:15<00:00, 64.48iter/s, Best=8.6305e-57, Regime=C, Evals=99.55M]
+   Run 5 - Helios-MP: 8.63e-57 (SUCCESS) in 15.5s91/1000 [00:15<00:00, 65.54iter/s, Best=8.6305e-57, Regime=C, Evals=99.55M]
+Helios-AS:  88%|▉| 2201/2500 [03:23<00:27, 10.82iter/s, Best=7.4634e-16, Evals=92622, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, 
+   Run 5 - Helios-AS: 7.46e-16 (SUCCESS) in 203.4ser/s, Best=7.4634e-16, Evals=92622, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, 
+   Run 5 - Speedup: 13.1x
+Sphere R5 - Helios-AS: 100%|████████████████████████████████████████████████████████████| 60/60 [1:56:01<00:00, 132.69s/run]
+   SUMMARY for Sphere:
+      Helios-MP: Best=1.11e-58, Success=100%, Time=15.4s
+      Helios-AS: Best=7.34e-16, Success=100%, Time=217.9s
+      Average Speedup: 14.2x
+Sphere R5 - Helios-AS: 100%|████████████████████████████████████████████████████████████| 60/60 [1:56:01<00:00, 116.03s/run]
+
+================================================================================
+FINAL COMPARISON SUMMARY
+================================================================================
+            MP_Best_Fitness  AS_Best_Fitness  MP_Mean_Fitness  AS_Mean_Fitness  Mean_Speedup  Mean_Quality_Ratio  MP_Success_Rate  AS_Success_Rate
+Function                                                                                                                                          
+Ackley               0.0000              0.0           0.0000           3.8071        6.3038        5.042899e+14              1.0              0.0
+Griewank             0.0000              0.0           0.0054           0.0000        8.5901                 inf              0.4              1.0
+Levy                 0.0000              0.0           0.0000           0.0117        4.7455        7.825231e+29              1.0              0.8
+Rastrigin            0.0000              0.0           0.0000           0.0000       10.8977                 inf              1.0              1.0
+Rosenbrock           0.0036              0.0           0.0339          11.3651        6.2458        2.159405e+03              0.0              0.6
+Sphere               0.0000              0.0           0.0000           0.0000       14.1511        3.618226e+42              1.0              1.0
+
+Results saved to helios_final_summary.csv and helios_final_detailed_runs.csv
+
+OVERALL PERFORMANCE SUMMARY:
+   Average Speedup: 8.5x
+   Helios-MP Success Rate: 73.3%
+   Helios-AS Success Rate: 73.3%
+
+SOLUTION QUALITY COMPARISON:
+   Functions where Helios-MP found better solution: 5/6
+   Functions where Helios-AS found better solution: 1/6
+
+Generating convergence plots...
+Convergence plots saved to helios_final_convergence_plots.png
+Performance analysis plots saved to helios_final_performance_analysis.png
+
+================================================================================
+DEFINITIVE BENCHMARK COMPLETE
+================================================================================
+
+Comparison complete! Check the CSV files and PNG plots for detailed results.
+Use these results for your HiPC paper experimental section.

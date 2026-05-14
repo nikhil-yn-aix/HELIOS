@@ -1,0 +1,44 @@
+HELIOS-MP SCALING ANALYSIS REPORT
+================================================================================
+Function: Rastrigin
+Bounds: [-5.12, 5.12]
+Analysis Date: 2025-07-02 18:08:41
+Total Tests: 36
+Successful Tests: 36
+
+PERFORMANCE SUMMARY
+--------------------------------------------------
+Best Performance: 16,538,589 evals/sec
+  Configuration: D=10, P=160,000
+  Memory Usage: 212.0 MB
+
+SCALING ANALYSIS
+--------------------------------------------------
+Performance Scaling Exponent: 0.848
+Memory Scaling Exponent: 1.893
+Scaling Assessment: Good
+
+OPTIMAL CONFIGURATION
+--------------------------------------------------
+Recommended Dimensions: 10
+Recommended Population: 10,000
+Efficiency Score: 1360005868.94
+
+DETAILED RESULTS BY DIMENSION
+--------------------------------------------------
+D= 10: Avg Perf:  6227997 evals/s, Avg Memory:   60.7 MB, Best Fitness: 0.00e+00
+D= 20: Avg Perf:  5208677 evals/s, Avg Memory:  159.8 MB, Best Fitness: 1.17e-02
+D= 30: Avg Perf:  4591111 evals/s, Avg Memory:  169.8 MB, Best Fitness: 1.09e+01
+D= 50: Avg Perf:  3877083 evals/s, Avg Memory:  315.2 MB, Best Fitness: 5.29e+01
+D=100: Avg Perf:  3126409 evals/s, Avg Memory:  743.2 MB, Best Fitness: 1.11e+02
+D=200: Avg Perf:  2452272 evals/s, Avg Memory: 1097.8 MB, Best Fitness: 2.09e+02
+
+Generated Files:
+- 1_helios_mp_rastrigin_performance_surface.png
+- 2_helios_mp_rastrigin_memory_heatmap.png
+- 3_helios_mp_rastrigin_efficiency_scaling.png
+- 4_helios_mp_rastrigin_convergence.png
+- 5_helios_mp_rastrigin_memory_efficiency.png
+- 6_helios_mp_rastrigin_regime_distribution.png
+- helios_mp_rastrigin_scaling_report.json
+- helios_mp_rastrigin_scaling_report.txt

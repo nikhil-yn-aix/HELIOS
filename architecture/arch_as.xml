@@ -1,0 +1,176 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="27.2.0">
+  <diagram name="HELIOS-AS-Wide-Architecture" id="helios-as-wide">
+    <mxGraphModel dx="1158" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title-main" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;HELIOS-AS: Heterogeneous, Evolutionary, and Landscape-aware Interacting Optimization System (Adaptive Serial)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1;fontColor=#1A202C;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="200" y="20" width="1000" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iteration-boundary" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; Single Iteration Loop&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#34495E;strokeWidth=3;dashed=1;dashPattern=8 4;fontSize=12;fontStyle=1;fontColor=#2C3E50;align=left;verticalAlign=top;spacingLeft=20;spacingTop=8;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="140" y="70" width="1160" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="explorer-population" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Explorer Population&lt;br&gt;&lt;br&gt;• Levy Flight Moves&lt;br&gt;• Memory-based Search&lt;br&gt;• Global Best Attraction&lt;br&gt;• Random Exploration&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#1F77B4;strokeWidth=2;fontSize=11;fontStyle=1;fontColor=#2C3E50;align=center;verticalAlign=top;spacingTop=12;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="285" y="107" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="refiner-population" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Refiner Population&lt;br&gt;&lt;br&gt;• Differential Evolution&lt;br&gt;• Hunting Strategies&lt;br&gt;• Local Exploitation&lt;br&gt;• Best Position Targeting&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3E8FF;strokeColor=#7B68EE;strokeWidth=2;fontSize=11;fontStyle=1;fontColor=#2C3E50;align=center;verticalAlign=top;spacingTop=12;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="931" y="98" width="220" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="state-monitor" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;State Monitoring:&lt;br&gt;• Basin Search Status&lt;br&gt;• Plateau Detection&lt;br&gt;• Scaling Dynamics&lt;br&gt;• Improvement Tracking&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F8F9FA;strokeColor=#BDC3C7;strokeWidth=1;fontSize=10;fontColor=#5D6D7E;align=left;verticalAlign=top;spacingLeft=10;spacingTop=8;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="160" y="250" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="controller" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;IndependentMechanismStates&lt;br&gt;(Adaptive Controller)&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#FFF8DC;strokeColor=#B8860B;strokeWidth=2.5;fontSize=12;fontStyle=1;fontColor=#2C3E50;shadow=1;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="585" y="200" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="explorer-data-flow" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Fitness &amp;amp; Diversity&lt;/font&gt;" style="endArrow=classic;html=1;rounded=1;strokeColor=#7F8C8D;strokeWidth=1.5;dashed=1;dashPattern=5 3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=9;fontColor=#5D6D7E;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;fontFamily=Arial;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="explorer-population" target="controller" edge="1">
+          <mxGeometry x="0.1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="190" as="sourcePoint" />
+            <mxPoint x="640" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="refiner-data-flow" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Performance Data&lt;/font&gt;" style="endArrow=classic;html=1;rounded=1;strokeColor=#7F8C8D;strokeWidth=1.5;dashed=1;dashPattern=5 3;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;fontSize=9;fontColor=#5D6D7E;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;fontFamily=Arial;" parent="1" source="refiner-population" target="controller" edge="1">
+          <mxGeometry x="0.1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000" y="190" as="sourcePoint" />
+            <mxPoint x="760" y="210" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="monitor-data-flow" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;State Data&lt;/font&gt;" style="endArrow=classic;html=1;rounded=1;strokeColor=#7F8C8D;strokeWidth=1.5;dashed=1;dashPattern=5 3;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=9;fontColor=#5D6D7E;labelPosition=center;verticalLabelPosition=middle;align=center;verticalAlign=bottom;fontFamily=Arial;" parent="1" source="state-monitor" target="controller" edge="1">
+          <mxGeometry x="0.1" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="190" y="140" as="sourcePoint" />
+            <mxPoint x="590" y="250" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="decision-plateau" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Plateau&lt;br&gt;Escape&lt;br&gt;Needed?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#CD5C5C;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="350" y="317.5" width="130" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="action-plateau-escape" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Plateau Escape Maneuver&lt;br&gt;&lt;br&gt;Multi-directional jumps&lt;br&gt;with step-size variation&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8DC;strokeColor=#DAA520;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;align=center;verticalAlign=top;spacingTop=8;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="327.5" y="450" width="175" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-stagnation" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Stagnation&lt;br&gt;Threshold&lt;br&gt;Exceeded?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#CD5C5C;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="540" y="315" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="action-local-search" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Apply L-BFGS-B&lt;br&gt;Local Search&lt;br&gt;&lt;br&gt;High-precision refinement&lt;br&gt;near global optimum&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0FFF0;strokeColor=#228B22;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;align=center;verticalAlign=top;spacingTop=8;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="525" y="450" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-basin" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Basin&lt;br&gt;Search&lt;br&gt;Criteria?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#CD5C5C;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="740" y="317.5" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="action-basin-search" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Basin Search Mode&lt;br&gt;&lt;br&gt;Large-scale exploration&lt;br&gt;with strategic jumps&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0F0F0;strokeColor=#666666;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;align=center;verticalAlign=top;spacingTop=8;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="720" y="455" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="decision-evaluation" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Evaluation&lt;br&gt;Phase&lt;br&gt;Required?&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF0F0;strokeColor=#CD5C5C;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="951" y="317.5" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="action-evaluation" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Population Evaluation&lt;br&gt;&lt;br&gt;Fitness assessment&lt;br&gt;and best tracking&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#1F77B4;strokeWidth=2;fontSize=10;fontStyle=1;fontColor=#2C3E50;align=center;verticalAlign=top;spacingTop=8;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="931" y="460" width="160" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="controller-to-plateau" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#2C3E50;strokeWidth=2;exitX=0.2;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="controller" target="decision-plateau" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="640" y="290" as="sourcePoint" />
+            <mxPoint x="240" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="controller-to-stagnation" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#2C3E50;strokeWidth=2;exitX=0.4;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="controller" target="decision-stagnation" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="290" as="sourcePoint" />
+            <mxPoint x="520" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="controller-to-basin" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#2C3E50;strokeWidth=2;exitX=0.6;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="controller" target="decision-basin" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="290" as="sourcePoint" />
+            <mxPoint x="800" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="controller-to-evaluation" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#2C3E50;strokeWidth=2;exitX=0.8;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="controller" target="decision-evaluation" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="290" as="sourcePoint" />
+            <mxPoint x="1080" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="plateau-to-escape" value="&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(243, 156, 18), rgb(163, 88, 0));&quot;&gt;Yes&lt;/span&gt;&lt;/div&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=#DAA520;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#F39C12;fontStyle=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Arial;" parent="1" source="decision-plateau" target="action-plateau-escape" edge="1">
+          <mxGeometry x="0.3" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="390" as="sourcePoint" />
+            <mxPoint x="240" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stagnation-to-local" value="Yes" style="endArrow=classic;html=1;rounded=0;strokeColor=#228B22;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#27AE60;fontStyle=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Arial;" parent="1" source="decision-stagnation" target="action-local-search" edge="1">
+          <mxGeometry x="0.3" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="390" as="sourcePoint" />
+            <mxPoint x="520" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="basin-to-search" value="Yes" style="endArrow=classic;html=1;rounded=0;strokeColor=#666666;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#5D6D7E;fontStyle=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Arial;" parent="1" source="decision-basin" target="action-basin-search" edge="1">
+          <mxGeometry x="0.3" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="390" as="sourcePoint" />
+            <mxPoint x="800" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evaluation-to-action" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Yes&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;strokeColor=#1F77B4;strokeWidth=2;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=9;fontColor=#3498DB;fontStyle=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;fontFamily=Arial;" parent="1" source="decision-evaluation" target="action-evaluation" edge="1">
+          <mxGeometry x="0.3" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="390" as="sourcePoint" />
+            <mxPoint x="1080" y="410" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="update-and-feedback" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Update Multi-Scale Parameters, Population Dynamics &amp;amp; Global Best&lt;br&gt;&lt;br&gt;• Exploration/Exploitation Balance • Population Size Control • Best Position Tracking&lt;br&gt;• Mechanism State Transitions • Performance Metrics Collection&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F4FD;strokeColor=#1F77B4;strokeWidth=2;fontSize=11;fontStyle=1;fontColor=#2C3E50;align=center;verticalAlign=top;spacingTop=12;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="450" y="600" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="actions-convergence" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#2C3E50;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="action-plateau-escape" target="update-and-feedback" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="490" as="sourcePoint" />
+            <mxPoint x="500" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="stagnation-convergence" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#2C3E50;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0;entryDx=0;entryDy=0;" parent="1" source="action-local-search" target="update-and-feedback" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="490" as="sourcePoint" />
+            <mxPoint x="600" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="basin-convergence" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#2C3E50;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.6;entryY=0;entryDx=0;entryDy=0;" parent="1" source="action-basin-search" target="update-and-feedback" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="800" y="490" as="sourcePoint" />
+            <mxPoint x="700" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="evaluation-convergence" value="" style="endArrow=classic;html=1;rounded=1;strokeColor=#2C3E50;strokeWidth=1.5;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;" parent="1" source="action-evaluation" target="update-and-feedback" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1080" y="490" as="sourcePoint" />
+            <mxPoint x="800" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="feedback-loop" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Performance &amp;amp; State Feedback&lt;/font&gt;" style="endArrow=classic;html=1;rounded=1;strokeColor=#7F8C8D;strokeWidth=2;dashed=1;dashPattern=8 4;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;fontColor=#5D6D7E;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;fontFamily=Arial;" parent="1" source="update-and-feedback" target="controller" edge="1">
+          <mxGeometry x="0.8" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="910" y="540" as="sourcePoint" />
+            <mxPoint x="810" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1190" y="550" />
+              <mxPoint x="1190" y="400" />
+              <mxPoint x="1200" y="250" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="timing-left" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Every 50 iterations&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#7F8C8D;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="340" y="412.5" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="timing-center" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Every 100 iterations&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#7F8C8D;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="525" y="405" width="67.5" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="timing-right" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Every 150 iterations&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#7F8C8D;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="820" y="417.5" width="60" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="timing-eval" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Continuous&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#7F8C8D;fontFamily=Arial;" parent="1" vertex="1">
+          <mxGeometry x="1031" y="417.5" width="60" height="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

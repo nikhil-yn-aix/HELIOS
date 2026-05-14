@@ -1,0 +1,44 @@
+HELIOS-MP SCALING ANALYSIS REPORT
+================================================================================
+Function: Sphere
+Bounds: [-10, 10]
+Analysis Date: 2025-07-02 18:04:32
+Total Tests: 36
+Successful Tests: 36
+
+PERFORMANCE SUMMARY
+--------------------------------------------------
+Best Performance: 19,006,164 evals/sec
+  Configuration: D=10, P=160,000
+  Memory Usage: 196.0 MB
+
+SCALING ANALYSIS
+--------------------------------------------------
+Performance Scaling Exponent: 0.821
+Memory Scaling Exponent: 1.856
+Scaling Assessment: Good
+
+OPTIMAL CONFIGURATION
+--------------------------------------------------
+Recommended Dimensions: 20
+Recommended Population: 10,000
+Efficiency Score: 1613105490.96
+
+DETAILED RESULTS BY DIMENSION
+--------------------------------------------------
+D= 10: Avg Perf:  7040572 evals/s, Avg Memory:   67.0 MB, Best Fitness: 8.28e-15
+D= 20: Avg Perf:  6176617 evals/s, Avg Memory:  143.0 MB, Best Fitness: 2.38e-14
+D= 30: Avg Perf:  5696060 evals/s, Avg Memory:  124.3 MB, Best Fitness: 1.78e-13
+D= 50: Avg Perf:  5093047 evals/s, Avg Memory:  256.3 MB, Best Fitness: 2.38e-12
+D=100: Avg Perf:  4181779 evals/s, Avg Memory:  749.5 MB, Best Fitness: 6.81e-08
+D=200: Avg Perf:  3286215 evals/s, Avg Memory: 1122.2 MB, Best Fitness: 8.68e-06
+
+Generated Files:
+- 1_helios_mp_sphere_performance_surface.png
+- 2_helios_mp_sphere_memory_heatmap.png
+- 3_helios_mp_sphere_efficiency_scaling.png
+- 4_helios_mp_sphere_convergence.png
+- 5_helios_mp_sphere_memory_efficiency.png
+- 6_helios_mp_sphere_regime_distribution.png
+- helios_mp_sphere_scaling_report.json
+- helios_mp_sphere_scaling_report.txt

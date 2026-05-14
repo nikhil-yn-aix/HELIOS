@@ -1,0 +1,191 @@
+============================================================
+SIMULATED ANNEALING OPTIMIZATION FOR LENNARD-JONES CLUSTERS
+============================================================
+
+
+----------------------------------------
+PROBLEM: LJ13
+Number of atoms: 13
+Dimensions: 39
+Budget: 50000 evaluations
+Expected minimum: -44.33
+----------------------------------------
+
+RESULTS:
+  Best fitness: -39.717147
+  Best position (first 6 coords): [ 0.33354289  0.94044113  0.12307182  0.63372339  1.85162127 -0.43222659]
+  Function evaluations: 50000
+  Runtime: 12.46 seconds
+  Gap from known minimum: 4.612853
+  ✅ Result seems reasonable
+
+----------------------------------------
+PROBLEM: LJ19
+Number of atoms: 19
+Dimensions: 57
+Budget: 100000 evaluations
+Expected minimum: -72.66
+----------------------------------------
+
+RESULTS:
+  Best fitness: -64.128065
+  Best position (first 6 coords): [-0.64053096 -0.2764174   2.89315657 -0.23515661  1.49619325  2.32709787]
+  Function evaluations: 100000
+  Runtime: 49.83 seconds
+  Gap from known minimum: 8.531935
+  ✅ Result seems reasonable
+
+============================================================
+
+
+
+
+============================================================
+PSO OPTIMIZATION FOR LENNARD-JONES CLUSTERS
+============================================================
+
+----------------------------------------
+PROBLEM: LJ13
+Number of atoms: 13
+Dimensions: 39
+Budget: 50000 evaluations
+Expected minimum: -44.33
+----------------------------------------
+
+RESULTS:
+  Best fitness: -7.212224
+  Best position (first 6 coords): [ 1.56283561 -1.02808006 -1.79423646  1.69827714 -0.81495222  0.17832113]
+  Function evaluations: 49998
+  Runtime: 8.63 seconds
+  Gap from known minimum: 37.117776
+  ✅ Result seems reasonable
+
+----------------------------------------
+PROBLEM: LJ19
+Number of atoms: 19
+Dimensions: 57
+Budget: 100000 evaluations
+Expected minimum: -72.66
+----------------------------------------
+
+RESULTS:
+  Best fitness: -9.118104
+  Best position (first 6 coords): [-1.98587346  1.02983848 -1.78309779 -2.91792842  0.00957293 -1.6162503 ]
+  Function evaluations: 100000
+  Runtime: 34.57 seconds
+  Gap from known minimum: 63.541896
+  ✅ Result seems reasonable
+
+
+
+----------------------------------------
+
+
+============================================================
+CMA-ES OPTIMIZATION FOR LENNARD-JONES CLUSTERS
+============================================================
+
+----------------------------------------
+PROBLEM: LJ13
+Number of atoms: 13
+Dimensions: 39
+Budget: 50000 evaluations
+Expected minimum: -44.33
+----------------------------------------
+
+RESULTS:
+  Best fitness: -27.778932
+  Function evaluations: 50000
+  Runtime: 22.21 seconds
+  Gap from known minimum: 16.551068
+  ✅ Result seems reasonable
+
+----------------------------------------
+PROBLEM: LJ19
+Number of atoms: 19
+Dimensions: 57
+Budget: 100000 evaluations
+Expected minimum: -72.66
+----------------------------------------
+
+RESULTS:
+  Best fitness: -39.869534
+  Function evaluations: 100000
+  Runtime: 47.83 seconds
+  Gap from known minimum: 32.790466
+  ✅ Result seems reasonable
+
+
+
+
+----------------------------------------------------------
+
+============================================================
+DIFFERENTIAL EVOLUTION OPTIMIZATION FOR LENNARD-JONES CLUSTERS
+============================================================
+
+----------------------------------------
+PROBLEM: LJ13
+Number of atoms: 13
+Dimensions: 39
+Budget: 50000 evaluations
+Expected minimum: -44.33
+----------------------------------------
+
+RESULTS:
+  Best fitness: -7.551724
+  Function evaluations: 50000
+  Runtime: 11.52 seconds
+  Gap from known minimum: 36.778276
+  ✅ Result seems reasonable
+
+----------------------------------------
+PROBLEM: LJ19
+Number of atoms: 19
+Dimensions: 57
+Budget: 100000 evaluations
+Expected minimum: -72.66
+----------------------------------------
+
+RESULTS:
+  Best fitness: -10.287044
+  Function evaluations: 100000
+  Runtime: 40.50 seconds
+  Gap from known minimum: 62.372956
+  ✅ Result seems reasonable
+
+
+
+
+----------------------------------------
+PROBLEM: LJ13
+Number of atoms: 13
+Dimensions: 39
+Evaluation Budget: 50,000 evaluations
+Calculated Max Iterations: 2,000
+Expected minimum: -44.326801
+----------------------------------------
+HeliosAS Fixed: 100%|█| 2000/2000 [00:13<00:00, 147.23iter/s, Best=-4.0004e+01, Evals=37854, SF=99, LS=4, PE=20, B
+
+RESULTS:
+  Best fitness found:     -40.004076
+  Function evaluations:   37,854
+  Runtime:                13.60 seconds
+  Gap from known minimum: 4.322725
+
+----------------------------------------
+
+
+
+OPTIMIZATION FOR LENNARD-JONES CLUSTERS
+PROBLEM: LJ13
+Number of atoms: 13
+Dimensions: 39
+Budget: 50000 evaluations
+Expected minimum: -44.33
+
+
+HeliosAS: Best fitness:  -40.0040, Function evaluations: 37,854
+DIFFERENTIAL EVOLUTION: Best fitness: -7.5517, Function evaluations: 50000
+CMA-ES: Best fitness: -27.7789, Function evaluations: 50000
+PSO: Best fitness: -7.212224, Function evaluations: 49998

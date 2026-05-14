@@ -1,0 +1,13 @@
+OPTIMIZATION FOR LENNARD-JONES CLUSTERS
+PROBLEM: LJ13
+Number of atoms: 13
+Dimensions: 39
+Budget: 50000 evaluations
+Expected minimum: -44.33
+
+
+HeliosAS: Best fitness:  -40.0040, Function evaluations: 37,854
+ANNEALING: Best fitness: -39.717147, Function evaluations: 50000
+DIFFERENTIAL EVOLUTION: Best fitness: -7.5517, Function evaluations: 50000
+CMA-ES: Best fitness: -27.7789, Function evaluations: 50000
+PSO: Best fitness: -7.212224, Function evaluations: 49998

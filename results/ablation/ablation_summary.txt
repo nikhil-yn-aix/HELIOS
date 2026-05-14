@@ -1,0 +1,790 @@
+(AI-torch) PS C:\Users\Naveen\OneDrive\Desktop\MetaHeuristics\HiPC> & C:/Users/Naveen/anaconda3/envs/AI-torch/python.exe c:/Users/Naveen/OneDrive/Desktop/MetaHeuristics/HiPC/abalation.py
+Ablation Study Progress:   1%|▉                                                                   | 10/700 [00:22<23:07,  2.01s/it]
+📈 RESULTS: Sphere 10D - baseline                                                         | 0/7 [00:00<?, ?it/s, Testing: baseline]
+------------------------------------------------------------
+Best Fitness:    1.963261e-16
+Mean Fitness:    4.657760e-05 ± 1.397328e-04
+Worst Fitness:   4.657760e-04
+Avg Evaluations: 4739
+Avg Runtime:     2.22s
+------------------------------------------------------------
+Ablation Study Progress:   3%|█▉                                                                  | 20/700 [00:59<33:54,  2.99s/it]
+📈 RESULTS: Sphere 10D - no_local_search                                   | 1/7 [00:22<02:13, 22.24s/it, Testing: no_local_search]
+------------------------------------------------------------
+Best Fitness:    2.462478e-07
+Mean Fitness:    9.355247e-05 ± 1.627257e-04
+Worst Fitness:   4.657760e-04
+Avg Evaluations: 3501
+Avg Runtime:     3.68s
+------------------------------------------------------------
+Ablation Study Progress:   4%|██▉                                                                 | 30/700 [01:10<12:43,  1.14s/it]
+📈 RESULTS: Sphere 10D - no_surrogate                                         | 2/7 [00:59<02:34, 30.84s/it, Testing: no_surrogate]
+------------------------------------------------------------
+Best Fitness:    2.153118e-16
+Mean Fitness:    2.363408e-16 ± 1.181888e-17
+Worst Fitness:   2.500000e-16
+Avg Evaluations: 74693
+Avg Runtime:     1.09s
+------------------------------------------------------------
+Ablation Study Progress:   6%|███▉                                                                | 40/700 [01:32<21:17,  1.94s/it]
+📈 RESULTS: Sphere 10D - no_escape_mechanisms                         | 3/7 [01:10<01:26, 21.75s/it, Testing: no_escape_mechanisms]
+------------------------------------------------------------
+Best Fitness:    2.389945e-16
+Mean Fitness:    4.657760e-05 ± 1.397328e-04
+Worst Fitness:   4.657760e-04
+Avg Evaluations: 4429
+Avg Runtime:     2.20s
+------------------------------------------------------------
+Ablation Study Progress:   7%|████▊                                                               | 50/700 [01:54<22:49,  2.11s/it]
+📈 RESULTS: Sphere 10D - no_population_decay███▊                       | 4/7 [01:32<01:05, 21.85s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.139059e-16
+Mean Fitness:    1.336326e-04 ± 2.797614e-04
+Worst Fitness:   8.530377e-04
+Avg Evaluations: 5102
+Avg Runtime:     2.26s
+------------------------------------------------------------
+Ablation Study Progress:   9%|█████▊                                                              | 60/700 [02:16<20:48,  1.95s/it]
+📈 RESULTS: Sphere 10D - no_diversity_restart█████████▊               | 5/7 [01:54<00:44, 22.14s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.963261e-16
+Mean Fitness:    4.657760e-05 ± 1.397328e-04
+Worst Fitness:   4.657760e-04
+Avg Evaluations: 4737
+Avg Runtime:     2.17s
+------------------------------------------------------------
+Ablation Study Progress:  10%|██████▊                                                             | 70/700 [02:33<16:32,  1.57s/it]
+📈 RESULTS: Sphere 10D - no_de_operator████████████████████████████▌        | 6/7 [02:16<00:22, 22.01s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.470890e-16
+Mean Fitness:    3.590788e-04 ± 3.959259e-04
+Worst Fitness:   1.146184e-03
+Avg Evaluations: 4500
+Avg Runtime:     1.66s
+------------------------------------------------------------
+
+🏆 COMPARISON: Sphere 10D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_surrogate         2.15e-16     2.36e-16     1.18e-17     100%
+🥈    baseline             1.96e-16     4.66e-05     1.40e-04     90%
+🥉    no_escape_mechanisms 2.39e-16     4.66e-05     1.40e-04     90%
+ 4   no_diversity_restart 1.96e-16     4.66e-05     1.40e-04     90%
+ 5   no_local_search      2.46e-07     9.36e-05     1.63e-04     20%
+ 6   no_population_decay  2.14e-16     1.34e-04     2.80e-04     80%
+ 7   no_de_operator       1.47e-16     3.59e-04     3.96e-04     50%
+================================================================================
+Ablation Study Progress:  11%|███████▊                                                            | 80/700 [03:15<44:36,  4.32s/it]
+📈 RESULTS: Sphere 30D - baseline                                                         | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    7.221211e-16
+Mean Fitness:    7.382626e-16 ± 9.825664e-18
+Worst Fitness:   7.500000e-16
+Avg Evaluations: 8620
+Avg Runtime:     4.21s
+------------------------------------------------------------
+Ablation Study Progress:  13%|████████▍                                                         | 90/700 [04:29<1:23:25,  8.21s/it]
+📈 RESULTS: Sphere 30D - no_local_search                                   | 1/7 [00:42<04:13, 42.17s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.694442e-04
+Mean Fitness:    5.206120e-04 ± 3.017742e-04
+Worst Fitness:   1.178978e-03
+Avg Evaluations: 3986
+Avg Runtime:     7.40s
+------------------------------------------------------------
+Ablation Study Progress:  14%|█████████▌                                                         | 100/700 [04:41<14:41,  1.47s/it]
+📈 RESULTS: Sphere 30D - no_surrogate                                         | 2/7 [01:56<05:04, 60.91s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    6.610237e-16
+Mean Fitness:    7.373106e-16 ± 2.668301e-17
+Worst Fitness:   7.500000e-16
+Avg Evaluations: 74419
+Avg Runtime:     1.22s
+------------------------------------------------------------
+Ablation Study Progress:  16%|██████████▌                                                        | 110/700 [05:26<50:04,  5.09s/it]
+📈 RESULTS: Sphere 30D - no_escape_mechanisms                         | 3/7 [02:08<02:34, 38.68s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    7.221211e-16
+Mean Fitness:    4.311728e-04 ± 1.293518e-03
+Worst Fitness:   4.311728e-03
+Avg Evaluations: 7862
+Avg Runtime:     4.49s
+------------------------------------------------------------
+Ablation Study Progress:  17%|███████████▍                                                       | 120/700 [06:06<43:54,  4.54s/it]
+📈 RESULTS: Sphere 30D - no_population_decay███▊                       | 4/7 [02:53<02:03, 41.15s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    6.728570e-16
+Mean Fitness:    1.545222e-04 ± 4.635667e-04
+Worst Fitness:   1.545222e-03
+Avg Evaluations: 9019
+Avg Runtime:     3.98s
+------------------------------------------------------------
+Ablation Study Progress:  19%|████████████▍                                                      | 130/700 [06:48<41:46,  4.40s/it]
+📈 RESULTS: Sphere 30D - no_diversity_restart█████████▊               | 5/7 [03:33<01:21, 40.67s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    7.221211e-16
+Mean Fitness:    7.382626e-16 ± 9.825664e-18
+Worst Fitness:   7.500000e-16
+Avg Evaluations: 8620
+Avg Runtime:     4.20s
+------------------------------------------------------------
+Ablation Study Progress:  20%|█████████████▍                                                     | 140/700 [07:23<33:21,  3.57s/it]
+📈 RESULTS: Sphere 30D - no_de_operator████████████████████████████▌        | 6/7 [04:15<00:41, 41.12s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.924332e-16
+Mean Fitness:    1.603176e-05 ± 4.809529e-05
+Worst Fitness:   1.603176e-04
+Avg Evaluations: 7364
+Avg Runtime:     3.54s
+------------------------------------------------------------
+
+🏆 COMPARISON: Sphere 30D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_surrogate         6.61e-16     7.37e-16     2.67e-17     100%
+🥈    baseline             7.22e-16     7.38e-16     9.83e-18     100%
+🥉    no_diversity_restart 7.22e-16     7.38e-16     9.83e-18     100%
+ 4   no_de_operator       5.92e-16     1.60e-05     4.81e-05     90%
+ 5   no_population_decay  6.73e-16     1.55e-04     4.64e-04     90%
+ 6   no_escape_mechanisms 7.22e-16     4.31e-04     1.29e-03     90%
+ 7   no_local_search      1.69e-04     5.21e-04     3.02e-04     0%
+================================================================================
+Ablation Study Progress:  21%|██████████████▎                                                    | 150/700 [07:48<22:02,  2.40s/it]
+📈 RESULTS: Rosenbrock 10D - baseline                                                     | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.182008e-11
+Mean Fitness:    2.586745e-11 ± 2.100050e-12
+Worst Fitness:   2.736473e-11
+Avg Evaluations: 3930
+Avg Runtime:     2.46s
+------------------------------------------------------------
+Ablation Study Progress:  23%|███████████████▎                                                   | 160/700 [08:04<14:19,  1.59s/it]
+📈 RESULTS: Rosenbrock 10D - no_local_search                               | 1/7 [00:24<02:27, 24.67s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    8.648244e+00
+Mean Fitness:    8.732871e+00 ± 5.582784e-02
+Worst Fitness:   8.813508e+00
+Avg Evaluations: 1479
+Avg Runtime:     1.59s
+------------------------------------------------------------
+Ablation Study Progress:  24%|████████████████▎                                                  | 170/700 [08:18<12:10,  1.38s/it]
+📈 RESULTS: Rosenbrock 10D - no_surrogate                                     | 2/7 [00:40<01:37, 19.54s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.639437e-11
+Mean Fitness:    2.687125e-11 ± 3.313596e-13
+Worst Fitness:   2.725015e-11
+Avg Evaluations: 88856
+Avg Runtime:     1.37s
+------------------------------------------------------------
+Ablation Study Progress:  26%|█████████████████▏                                                 | 180/700 [08:46<25:46,  2.97s/it]
+📈 RESULTS: Rosenbrock 10D - no_escape_mechanisms                     | 3/7 [00:54<01:07, 16.88s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.004413e-11
+Mean Fitness:    2.521228e-11 ± 5.075658e-12
+Worst Fitness:   2.734299e-11
+Avg Evaluations: 3890
+Avg Runtime:     2.80s
+------------------------------------------------------------
+Ablation Study Progress:  27%|██████████████████▏                                                | 190/700 [09:08<22:01,  2.59s/it]
+📈 RESULTS: Rosenbrock 10D - no_population_decay█▌                     | 4/7 [01:22<01:03, 21.30s/it, Testing: no_population_decay] 
+------------------------------------------------------------
+Best Fitness:    2.465549e-11
+Mean Fitness:    2.668139e-11 ± 9.089839e-13
+Worst Fitness:   2.740477e-11
+Avg Evaluations: 3516
+Avg Runtime:     2.28s
+------------------------------------------------------------
+Ablation Study Progress:  29%|███████████████████▏                                               | 200/700 [09:33<19:47,  2.38s/it]
+📈 RESULTS: Rosenbrock 10D - no_diversity_restart███████              | 5/7 [01:45<00:43, 21.85s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.182008e-11
+Mean Fitness:    2.586745e-11 ± 2.100050e-12
+Worst Fitness:   2.736473e-11
+Avg Evaluations: 3924
+Avg Runtime:     2.48s
+------------------------------------------------------------
+Ablation Study Progress:  30%|████████████████████                                               | 210/700 [09:56<16:54,  2.07s/it]
+📈 RESULTS: Rosenbrock 10D - no_de_operator█████████████████████████▏       | 6/7 [02:10<00:22, 22.85s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.267969e-11
+Mean Fitness:    8.258723e-01 ± 2.477617e+00
+Worst Fitness:   8.258723e+00
+Avg Evaluations: 4334
+Avg Runtime:     2.23s
+------------------------------------------------------------
+
+🏆 COMPARISON: Rosenbrock 10D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_escape_mechanisms 1.00e-11     2.52e-11     5.08e-12     100%
+🥈    baseline             2.18e-11     2.59e-11     2.10e-12     100%
+🥉    no_diversity_restart 2.18e-11     2.59e-11     2.10e-12     100%
+ 4   no_population_decay  2.47e-11     2.67e-11     9.09e-13     100%
+ 5   no_surrogate         2.64e-11     2.69e-11     3.31e-13     100%
+ 6   no_de_operator       2.27e-11     8.26e-01     2.48e+00     90%
+ 7   no_local_search      8.65e+00     8.73e+00     5.58e-02     0%
+================================================================================
+Ablation Study Progress:  31%|█████████████████████                                              | 220/700 [10:28<24:23,  3.05s/it]
+📈 RESULTS: Rosenbrock 30D - baseline                                                     | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    7.619012e-12
+Mean Fitness:    5.741307e+00 ± 1.148262e+01
+Worst Fitness:   2.871317e+01
+Avg Evaluations: 20805
+Avg Runtime:     3.22s
+------------------------------------------------------------
+Ablation Study Progress:  33%|██████████████████████                                             | 230/700 [10:50<17:45,  2.27s/it]
+📈 RESULTS: Rosenbrock 30D - no_local_search                               | 1/7 [00:32<03:13, 32.24s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.823460e+01
+Mean Fitness:    2.868236e+01 ± 1.542181e-01
+Worst Fitness:   2.881453e+01
+Avg Evaluations: 1517
+Avg Runtime:     2.27s
+------------------------------------------------------------
+Ablation Study Progress:  34%|██████████████████████▉                                            | 240/700 [11:09<15:11,  1.98s/it]
+📈 RESULTS: Rosenbrock 30D - no_surrogate                                     | 2/7 [00:54<02:13, 26.62s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.630678e-12
+Mean Fitness:    2.169787e-11 ± 8.584787e-12
+Worst Fitness:   3.006689e-11
+Avg Evaluations: 110301
+Avg Runtime:     1.90s
+------------------------------------------------------------
+Ablation Study Progress:  36%|███████████████████████▉                                           | 250/700 [11:39<23:06,  3.08s/it]
+📈 RESULTS: Rosenbrock 30D - no_escape_mechanisms                     | 3/7 [01:13<01:32, 23.13s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.192515e-11
+Mean Fitness:    2.026109e+01 ± 1.326402e+01
+Worst Fitness:   2.898547e+01
+Avg Evaluations: 38955
+Avg Runtime:     2.95s
+------------------------------------------------------------
+Ablation Study Progress:  37%|████████████████████████▉                                          | 260/700 [12:09<21:44,  2.97s/it]
+📈 RESULTS: Rosenbrock 30D - no_population_decay█▌                     | 4/7 [01:43<01:16, 25.66s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.833916e-11
+Mean Fitness:    2.011931e+01 ± 1.317123e+01
+Worst Fitness:   2.880007e+01
+Avg Evaluations: 41723
+Avg Runtime:     3.03s
+------------------------------------------------------------
+Ablation Study Progress:  39%|█████████████████████████▊                                         | 270/700 [12:42<22:36,  3.16s/it]
+📈 RESULTS: Rosenbrock 30D - no_diversity_restart███████              | 5/7 [02:13<00:54, 27.36s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    7.619012e-12
+Mean Fitness:    5.741307e+00 ± 1.148262e+01
+Worst Fitness:   2.871317e+01
+Avg Evaluations: 20805
+Avg Runtime:     3.27s
+------------------------------------------------------------
+Ablation Study Progress:  40%|██████████████████████████▊                                        | 280/700 [13:15<21:46,  3.11s/it]
+📈 RESULTS: Rosenbrock 30D - no_de_operator█████████████████████████▏       | 6/7 [02:46<00:29, 29.18s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.743481e-11
+Mean Fitness:    1.149260e+01 ± 1.407553e+01
+Worst Fitness:   2.878566e+01
+Avg Evaluations: 28570
+Avg Runtime:     3.28s
+------------------------------------------------------------
+
+🏆 COMPARISON: Rosenbrock 30D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_surrogate         5.63e-12     2.17e-11     8.58e-12     100%
+🥈    baseline             7.62e-12     5.74e+00     1.15e+01     80%
+🥉    no_diversity_restart 7.62e-12     5.74e+00     1.15e+01     80%
+ 4   no_de_operator       1.74e-11     1.15e+01     1.41e+01     60%
+ 5   no_population_decay  2.83e-11     2.01e+01     1.32e+01     30%
+ 6   no_escape_mechanisms 2.19e-11     2.03e+01     1.33e+01     30%
+ 7   no_local_search      2.82e+01     2.87e+01     1.54e-01     0%
+================================================================================
+Ablation Study Progress:  41%|███████████████████████████▊                                       | 290/700 [13:39<18:36,  2.72s/it]
+📈 RESULTS: Rastrigin 10D - baseline                                                      | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.842171e-14
+Mean Fitness:    7.764480e-05 ± 1.038219e-04
+Worst Fitness:   2.814014e-04
+Avg Evaluations: 6336
+Avg Runtime:     2.38s
+------------------------------------------------------------
+Ablation Study Progress:  43%|████████████████████████████▋                                      | 300/700 [14:10<21:36,  3.24s/it]
+📈 RESULTS: Rastrigin 10D - no_local_search                                | 1/7 [00:23<02:22, 23.81s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.461571e-07
+Mean Fitness:    7.844751e-05 ± 1.032275e-04
+Worst Fitness:   2.814014e-04
+Avg Evaluations: 3477
+Avg Runtime:     3.17s
+------------------------------------------------------------
+Ablation Study Progress:  44%|█████████████████████████████▋                                     | 310/700 [14:22<07:52,  1.21s/it]
+📈 RESULTS: Rastrigin 10D - no_surrogate                                      | 2/7 [00:55<02:22, 28.45s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.842171e-14
+Mean Fitness:    4.263256e-14 ± 1.906586e-14
+Worst Fitness:   8.526513e-14
+Avg Evaluations: 76499
+Avg Runtime:     1.14s
+------------------------------------------------------------
+Ablation Study Progress:  46%|██████████████████████████████▋                                    | 320/700 [14:46<15:18,  2.42s/it]
+📈 RESULTS: Rastrigin 10D - no_escape_mechanisms                      | 3/7 [01:06<01:22, 20.70s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.842171e-14
+Mean Fitness:    6.298403e-05 ± 1.049285e-04
+Worst Fitness:   2.814014e-04
+Avg Evaluations: 5380
+Avg Runtime:     2.40s
+------------------------------------------------------------
+Ablation Study Progress:  47%|███████████████████████████████▌                                   | 330/700 [15:11<14:56,  2.42s/it]
+📈 RESULTS: Rastrigin 10D - no_population_decay██▏                     | 4/7 [01:31<01:06, 22.02s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.842171e-14
+Mean Fitness:    1.212931e-04 ± 1.556549e-04
+Worst Fitness:   3.953901e-04
+Avg Evaluations: 6070
+Avg Runtime:     2.49s
+------------------------------------------------------------
+Ablation Study Progress:  49%|████████████████████████████████▌                                  | 340/700 [15:34<15:48,  2.63s/it]
+📈 RESULTS: Rastrigin 10D - no_diversity_restart███████▋              | 5/7 [01:55<00:46, 23.08s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    2.842171e-14
+Mean Fitness:    1.329580e-04 ± 1.724105e-04
+Worst Fitness:   5.531320e-04
+Avg Evaluations: 6330
+Avg Runtime:     2.27s
+------------------------------------------------------------
+Ablation Study Progress:  50%|█████████████████████████████████▌                                 | 350/700 [15:49<08:58,  1.54s/it]
+📈 RESULTS: Rastrigin 10D - no_de_operator██████████████████████████        | 6/7 [02:18<00:22, 22.97s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.604296e-04
+Mean Fitness:    3.313126e-04 ± 1.410615e-04
+Worst Fitness:   6.548505e-04
+Avg Evaluations: 6372
+Avg Runtime:     1.54s
+------------------------------------------------------------
+
+🏆 COMPARISON: Rastrigin 10D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_surrogate         2.84e-14     4.26e-14     1.91e-14     100%
+🥈    no_escape_mechanisms 2.84e-14     6.30e-05     1.05e-04     60%
+🥉    baseline             2.84e-14     7.76e-05     1.04e-04     50%
+ 4   no_local_search      2.46e-07     7.84e-05     1.03e-04     30%
+ 5   no_population_decay  2.84e-14     1.21e-04     1.56e-04     60%
+ 6   no_diversity_restart 2.84e-14     1.33e-04     1.72e-04     40%
+ 7   no_de_operator       1.60e-04     3.31e-04     1.41e-04     0%
+================================================================================
+Ablation Study Progress:  51%|██████████████████████████████████▍                                | 360/700 [17:04<40:00,  7.06s/it]
+📈 RESULTS: Rastrigin 30D - baseline                                                      | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.684342e-14
+Mean Fitness:    2.397205e-05 ± 4.838810e-05
+Worst Fitness:   1.344842e-04
+Avg Evaluations: 20352
+Avg Runtime:     7.50s
+------------------------------------------------------------
+Ablation Study Progress:  53%|███████████████████████████████████▍                               | 370/700 [18:30<46:58,  8.54s/it]
+📈 RESULTS: Rastrigin 30D - no_local_search                                | 1/7 [01:15<07:30, 75.05s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.052362e-04
+Mean Fitness:    1.881691e-04 ± 6.521009e-05
+Worst Fitness:   3.132677e-04
+Avg Evaluations: 4742
+Avg Runtime:     8.57s
+------------------------------------------------------------
+Ablation Study Progress:  54%|████████████████████████████████████▎                              | 380/700 [18:47<10:49,  2.03s/it]
+📈 RESULTS: Rastrigin 30D - no_surrogate                                      | 2/7 [02:40<06:46, 81.32s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.684342e-14
+Mean Fitness:    4.668365e-06 ± 1.075030e-05
+Worst Fitness:   3.525704e-05
+Avg Evaluations: 99750
+Avg Runtime:     1.69s
+------------------------------------------------------------
+Ablation Study Progress:  56%|█████████████████████████████████████▎                             | 390/700 [19:58<37:23,  7.24s/it]
+📈 RESULTS: Rastrigin 30D - no_escape_mechanisms                      | 3/7 [02:57<03:27, 51.92s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.684342e-14
+Mean Fitness:    2.574556e-05 ± 7.723668e-05
+Worst Fitness:   2.574556e-04
+Avg Evaluations: 16470
+Avg Runtime:     7.11s
+------------------------------------------------------------
+Ablation Study Progress:  57%|██████████████████████████████████████▎                            | 400/700 [21:04<34:38,  6.93s/it]
+📈 RESULTS: Rastrigin 30D - no_population_decay██▏                     | 4/7 [04:08<02:58, 59.48s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.684342e-14
+Mean Fitness:    6.282626e-04 ± 9.590225e-04
+Worst Fitness:   2.498335e-03
+Avg Evaluations: 16489
+Avg Runtime:     6.61s
+------------------------------------------------------------
+Ablation Study Progress:  59%|███████████████████████████████████████▏                           | 410/700 [22:20<35:33,  7.36s/it]
+📈 RESULTS: Rastrigin 30D - no_diversity_restart███████▋              | 5/7 [05:14<02:03, 61.88s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.684342e-14
+Mean Fitness:    2.397205e-05 ± 4.838810e-05
+Worst Fitness:   1.344842e-04
+Avg Evaluations: 20964
+Avg Runtime:     7.56s
+------------------------------------------------------------
+Ablation Study Progress:  60%|████████████████████████████████████████▏                          | 420/700 [22:46<12:07,  2.60s/it]
+📈 RESULTS: Rastrigin 30D - no_de_operator██████████████████████████        | 6/7 [06:30<01:06, 66.56s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    5.684342e-13
+Mean Fitness:    2.745681e-03 ± 1.129647e-03
+Worst Fitness:   3.880518e-03
+Avg Evaluations: 15492
+Avg Runtime:     2.62s
+------------------------------------------------------------
+
+🏆 COMPARISON: Rastrigin 30D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_surrogate         5.68e-14     4.67e-06     1.08e-05     80%
+🥈    baseline             5.68e-14     2.40e-05     4.84e-05     80%
+🥉    no_diversity_restart 5.68e-14     2.40e-05     4.84e-05     80%
+ 4   no_escape_mechanisms 5.68e-14     2.57e-05     7.72e-05     90%
+ 5   no_local_search      1.05e-04     1.88e-04     6.52e-05     0%
+ 6   no_population_decay  5.68e-14     6.28e-04     9.59e-04     50%
+ 7   no_de_operator       5.68e-13     2.75e-03     1.13e-03     10%
+================================================================================
+Ablation Study Progress:  61%|█████████████████████████████████████████▏                         | 430/700 [23:15<13:12,  2.94s/it]
+📈 RESULTS: Ackley 10D - baseline                                                         | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.711002e-08
+Mean Fitness:    1.967064e-03 ± 3.064214e-03
+Worst Fitness:   9.571048e-03
+Avg Evaluations: 9614
+Avg Runtime:     2.90s
+------------------------------------------------------------
+Ablation Study Progress:  63%|██████████████████████████████████████████                         | 440/700 [23:49<15:02,  3.47s/it]
+📈 RESULTS: Ackley 10D - no_local_search                                   | 1/7 [00:29<02:54, 29.04s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    3.786171e-04
+Mean Fitness:    3.491453e-03 ± 3.581034e-03
+Worst Fitness:   1.057488e-02
+Avg Evaluations: 2998
+Avg Runtime:     3.44s
+------------------------------------------------------------
+Ablation Study Progress:  64%|███████████████████████████████████████████                        | 450/700 [24:03<05:35,  1.34s/it]
+📈 RESULTS: Ackley 10D - no_surrogate                                         | 2/7 [01:03<02:41, 32.23s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.790101e-08
+Mean Fitness:    1.926167e-08 ± 7.113915e-10
+Worst Fitness:   1.997842e-08
+Avg Evaluations: 83427
+Avg Runtime:     1.33s
+------------------------------------------------------------
+Ablation Study Progress:  66%|████████████████████████████████████████████                       | 460/700 [24:33<14:15,  3.57s/it]
+📈 RESULTS: Ackley 10D - no_escape_mechanisms                         | 3/7 [01:16<01:34, 23.57s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.711002e-08
+Mean Fitness:    2.328438e-03 ± 3.162571e-03
+Worst Fitness:   9.571048e-03
+Avg Evaluations: 9176
+Avg Runtime:     3.06s
+------------------------------------------------------------
+Ablation Study Progress:  67%|████████████████████████████████████████████▉                      | 470/700 [24:51<07:57,  2.08s/it]
+📈 RESULTS: Ackley 10D - no_population_decay███▊                       | 4/7 [01:47<01:19, 26.35s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.732432e-08
+Mean Fitness:    4.493093e-03 ± 4.598923e-03
+Worst Fitness:   1.056230e-02
+Avg Evaluations: 7083
+Avg Runtime:     1.81s
+------------------------------------------------------------
+Ablation Study Progress:  69%|█████████████████████████████████████████████▉                     | 480/700 [25:20<10:37,  2.90s/it]
+📈 RESULTS: Ackley 10D - no_diversity_restart█████████▊               | 5/7 [02:05<00:46, 23.39s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.711002e-08
+Mean Fitness:    1.967064e-03 ± 3.064214e-03
+Worst Fitness:   9.571048e-03
+Avg Evaluations: 9614
+Avg Runtime:     2.88s
+------------------------------------------------------------
+Ablation Study Progress:  70%|██████████████████████████████████████████████▉                    | 490/700 [25:36<05:46,  1.65s/it]
+📈 RESULTS: Ackley 10D - no_de_operator████████████████████████████▌        | 6/7 [02:34<00:25, 25.25s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    6.914085e-03
+Mean Fitness:    1.080949e-02 ± 2.802314e-03
+Worst Fitness:   1.509875e-02
+Avg Evaluations: 8794
+Avg Runtime:     1.61s
+------------------------------------------------------------
+
+🏆 COMPARISON: Ackley 10D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_surrogate         1.79e-08     1.93e-08     7.11e-10     100%
+🥈    baseline             1.71e-08     1.97e-03     3.06e-03     60%
+🥉    no_diversity_restart 1.71e-08     1.97e-03     3.06e-03     60%
+ 4   no_escape_mechanisms 1.71e-08     2.33e-03     3.16e-03     50%
+ 5   no_local_search      3.79e-04     3.49e-03     3.58e-03     0%
+ 6   no_population_decay  1.73e-08     4.49e-03     4.60e-03     50%
+ 7   no_de_operator       6.91e-03     1.08e-02     2.80e-03     0%
+================================================================================
+Ablation Study Progress:  71%|███████████████████████████████████████████████▊                   | 500/700 [26:29<19:43,  5.92s/it]
+📈 RESULTS: Ackley 30D - baseline                                                         | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.833699e-08
+Mean Fitness:    3.181045e-03 ± 6.362108e-03
+Worst Fitness:   1.596525e-02
+Avg Evaluations: 19176
+Avg Runtime:     5.23s
+------------------------------------------------------------
+Ablation Study Progress:  73%|████████████████████████████████████████████████▊                  | 510/700 [27:40<25:22,  8.01s/it]
+📈 RESULTS: Ackley 30D - no_local_search                                   | 1/7 [00:52<05:14, 52.34s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    4.163639e-03
+Mean Fitness:    8.114007e-03 ± 4.003522e-03
+Worst Fitness:   1.596525e-02
+Avg Evaluations: 3766
+Avg Runtime:     7.11s
+------------------------------------------------------------
+Ablation Study Progress:  74%|█████████████████████████████████████████████████▊                 | 520/700 [27:55<05:35,  1.86s/it]
+📈 RESULTS: Ackley 30D - no_surrogate                                         | 2/7 [02:03<05:16, 63.36s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.707639e-08
+Mean Fitness:    1.904738e-08 ± 9.235869e-10
+Worst Fitness:   1.979996e-08
+Avg Evaluations: 85725
+Avg Runtime:     1.55s
+------------------------------------------------------------
+Ablation Study Progress:  76%|██████████████████████████████████████████████████▋                | 530/700 [28:40<12:59,  4.59s/it]
+📈 RESULTS: Ackley 30D - no_escape_mechanisms                         | 3/7 [02:19<02:46, 41.55s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.920273e-08
+Mean Fitness:    3.181045e-03 ± 6.362108e-03
+Worst Fitness:   1.596525e-02
+Avg Evaluations: 13528
+Avg Runtime:     4.41s
+------------------------------------------------------------
+Ablation Study Progress:  77%|███████████████████████████████████████████████████▋               | 540/700 [29:24<12:03,  4.52s/it]
+📈 RESULTS: Ackley 30D - no_population_decay███▊                       | 4/7 [03:03<02:07, 42.59s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.942191e-08
+Mean Fitness:    6.690875e-03 ± 8.214410e-03
+Worst Fitness:   1.770161e-02
+Avg Evaluations: 17220
+Avg Runtime:     4.46s
+------------------------------------------------------------
+Ablation Study Progress:  79%|████████████████████████████████████████████████████▋              | 550/700 [30:17<15:17,  6.12s/it]
+📈 RESULTS: Ackley 30D - no_diversity_restart█████████▊               | 5/7 [03:47<01:26, 43.30s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.833699e-08
+Mean Fitness:    3.181045e-03 ± 6.362108e-03
+Worst Fitness:   1.596525e-02
+Avg Evaluations: 19176
+Avg Runtime:     5.30s
+------------------------------------------------------------
+Ablation Study Progress:  80%|█████████████████████████████████████████████████████▌             | 560/700 [30:47<07:06,  3.04s/it]
+📈 RESULTS: Ackley 30D - no_de_operator████████████████████████████▌        | 6/7 [04:40<00:46, 46.62s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.962938e-08
+Mean Fitness:    1.544529e-02 ± 6.399364e-03
+Worst Fitness:   2.211503e-02
+Avg Evaluations: 21949
+Avg Runtime:     2.96s
+------------------------------------------------------------
+
+🏆 COMPARISON: Ackley 30D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_surrogate         1.71e-08     1.90e-08     9.24e-10     100%
+🥈    baseline             1.83e-08     3.18e-03     6.36e-03     80%
+🥉    no_escape_mechanisms 1.92e-08     3.18e-03     6.36e-03     80%
+ 4   no_diversity_restart 1.83e-08     3.18e-03     6.36e-03     80%
+ 5   no_population_decay  1.94e-08     6.69e-03     8.21e-03     60%
+ 6   no_local_search      4.16e-03     8.11e-03     4.00e-03     0%
+ 7   no_de_operator       1.96e-08     1.54e-02     6.40e-03     10%
+================================================================================
+Ablation Study Progress:  81%|██████████████████████████████████████████████████████▌            | 570/700 [31:10<04:55,  2.28s/it]
+📈 RESULTS: Griewank 10D - baseline                                                       | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    0.000000e+00
+Mean Fitness:    1.998401e-16 ± 1.386668e-16
+Worst Fitness:   4.440892e-16
+Avg Evaluations: 3412
+Avg Runtime:     2.27s
+------------------------------------------------------------
+Ablation Study Progress:  83%|███████████████████████████████████████████████████████▌           | 580/700 [31:34<05:33,  2.78s/it]
+📈 RESULTS: Griewank 10D - no_local_search                                 | 1/7 [00:22<02:16, 22.75s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    4.101232e-06
+Mean Fitness:    6.535098e-05 ± 8.054260e-05
+Worst Fitness:   2.256022e-04
+Avg Evaluations: 2918
+Avg Runtime:     2.41s
+------------------------------------------------------------
+Ablation Study Progress:  84%|████████████████████████████████████████████████████████▍          | 590/700 [31:44<02:06,  1.15s/it]
+📈 RESULTS: Griewank 10D - no_surrogate                                       | 2/7 [00:46<01:57, 23.53s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    0.000000e+00
+Mean Fitness:    2.331468e-16 ± 2.189702e-16
+Worst Fitness:   6.661338e-16
+Avg Evaluations: 68294
+Avg Runtime:     1.06s
+------------------------------------------------------------
+Ablation Study Progress:  86%|█████████████████████████████████████████████████████████▍         | 600/700 [32:05<03:26,  2.07s/it]
+📈 RESULTS: Griewank 10D - no_escape_mechanisms                       | 3/7 [00:57<01:10, 17.65s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    0.000000e+00
+Mean Fitness:    1.443290e-16 ± 9.992007e-17
+Worst Fitness:   3.330669e-16
+Avg Evaluations: 3071
+Avg Runtime:     2.12s
+------------------------------------------------------------
+Ablation Study Progress:  87%|██████████████████████████████████████████████████████████▍        | 610/700 [32:31<04:10,  2.78s/it]
+📈 RESULTS: Griewank 10D - no_population_decay██▋                      | 4/7 [01:18<00:57, 19.07s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    0.000000e+00
+Mean Fitness:    2.775558e-16 ± 2.288783e-16
+Worst Fitness:   7.771561e-16
+Avg Evaluations: 4357
+Avg Runtime:     2.59s
+------------------------------------------------------------
+Ablation Study Progress:  89%|███████████████████████████████████████████████████████████▎       | 620/700 [32:55<03:05,  2.32s/it]
+📈 RESULTS: Griewank 10D - no_diversity_restart████████▍              | 5/7 [01:44<00:43, 21.52s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    0.000000e+00
+Mean Fitness:    1.998401e-16 ± 1.386668e-16
+Worst Fitness:   4.440892e-16
+Avg Evaluations: 3402
+Avg Runtime:     2.34s
+------------------------------------------------------------
+Ablation Study Progress:  90%|████████████████████████████████████████████████████████████▎      | 630/700 [33:15<02:24,  2.07s/it]
+📈 RESULTS: Griewank 10D - no_de_operator██████████████████████████▊        | 6/7 [02:07<00:22, 22.16s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    0.000000e+00
+Mean Fitness:    4.014409e-07 ± 1.204323e-06
+Worst Fitness:   4.014409e-06
+Avg Evaluations: 3715
+Avg Runtime:     2.04s
+------------------------------------------------------------
+
+🏆 COMPARISON: Griewank 10D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_escape_mechanisms 0.00e+00     1.44e-16     9.99e-17     100%
+🥈    baseline             0.00e+00     2.00e-16     1.39e-16     100%
+🥉    no_diversity_restart 0.00e+00     2.00e-16     1.39e-16     100%
+ 4   no_surrogate         0.00e+00     2.33e-16     2.19e-16     100%
+ 5   no_population_decay  0.00e+00     2.78e-16     2.29e-16     100%
+ 6   no_de_operator       0.00e+00     4.01e-07     1.20e-06     90%
+ 7   no_local_search      4.10e-06     6.54e-05     8.05e-05     0%
+================================================================================
+Ablation Study Progress:  91%|█████████████████████████████████████████████████████████████▎     | 640/700 [34:04<04:29,  4.49s/it]
+📈 RESULTS: Griewank 30D - baseline                                                       | 0/7 [00:00<?, ?it/s, Testing: baseline] 
+------------------------------------------------------------                                                                        
+Best Fitness:    4.440892e-16
+Mean Fitness:    2.264855e-15 ± 1.123686e-15
+Worst Fitness:   3.774758e-15
+Avg Evaluations: 6512
+Avg Runtime:     4.84s
+------------------------------------------------------------
+Ablation Study Progress:  93%|██████████████████████████████████████████████████████████████▏    | 650/700 [34:40<02:56,  3.53s/it]
+📈 RESULTS: Griewank 30D - no_local_search                                 | 1/7 [00:48<04:50, 48.42s/it, Testing: no_local_search] 
+------------------------------------------------------------                                                                        
+Best Fitness:    1.995565e-07
+Mean Fitness:    3.197896e-05 ± 2.963147e-05
+Worst Fitness:   9.318645e-05
+Avg Evaluations: 3535
+Avg Runtime:     3.64s
+------------------------------------------------------------
+Ablation Study Progress:  94%|███████████████████████████████████████████████████████████████▏   | 660/700 [34:53<00:52,  1.32s/it]
+📈 RESULTS: Griewank 30D - no_surrogate                                       | 2/7 [01:24<03:26, 41.38s/it, Testing: no_surrogate] 
+------------------------------------------------------------                                                                        
+Best Fitness:    9.992007e-16
+Mean Fitness:    1.998401e-15 ± 5.183683e-16
+Worst Fitness:   2.775558e-15
+Avg Evaluations: 74208
+Avg Runtime:     1.27s
+------------------------------------------------------------
+Ablation Study Progress:  96%|████████████████████████████████████████████████████████████████▏  | 670/700 [35:38<02:06,  4.21s/it]
+📈 RESULTS: Griewank 30D - no_escape_mechanisms                       | 3/7 [01:37<01:53, 28.29s/it, Testing: no_escape_mechanisms] 
+------------------------------------------------------------                                                                        
+Best Fitness:    7.771561e-16
+Mean Fitness:    2.686740e-15 ± 1.271484e-15
+Worst Fitness:   5.107026e-15
+Avg Evaluations: 5245
+Avg Runtime:     4.57s
+------------------------------------------------------------
+Ablation Study Progress:  97%|█████████████████████████████████████████████████████████████████  | 680/700 [36:16<00:55,  2.76s/it]
+📈 RESULTS: Griewank 30D - no_population_decay██▋                      | 4/7 [02:23<01:45, 35.17s/it, Testing: no_population_decay] 
+------------------------------------------------------------                                                                        
+Best Fitness:    9.992007e-16
+Mean Fitness:    1.909584e-15 ± 7.088059e-16
+Worst Fitness:   3.330669e-15
+Avg Evaluations: 7792
+Avg Runtime:     3.71s
+------------------------------------------------------------
+Ablation Study Progress:  99%|██████████████████████████████████████████████████████████████████ | 690/700 [37:04<00:46,  4.64s/it]
+📈 RESULTS: Griewank 30D - no_diversity_restart████████▍              | 5/7 [03:00<01:11, 35.87s/it, Testing: no_diversity_restart] 
+------------------------------------------------------------                                                                        
+Best Fitness:    4.440892e-16
+Mean Fitness:    2.264855e-15 ± 1.123686e-15
+Worst Fitness:   3.774758e-15
+Avg Evaluations: 6512
+Avg Runtime:     4.89s
+------------------------------------------------------------
+Ablation Study Progress: 100%|███████████████████████████████████████████████████████████████████| 700/700 [37:40<00:00,  3.49s/it]
+📈 RESULTS: Griewank 30D - no_de_operator██████████████████████████▊        | 6/7 [03:49<00:40, 40.30s/it, Testing: no_de_operator] 
+------------------------------------------------------------                                                                        
+Best Fitness:    6.661338e-16
+Mean Fitness:    2.042810e-15 ± 1.752746e-15
+Worst Fitness:   6.883383e-15
+Avg Evaluations: 8060
+Avg Runtime:     3.53s
+------------------------------------------------------------
+
+🏆 COMPARISON: Griewank 30D
+================================================================================
+Rank Ablation             Best         Mean         Std          Success Rate
+--------------------------------------------------------------------------------
+🥇    no_population_decay  9.99e-16     1.91e-15     7.09e-16     100%
+🥈    no_surrogate         9.99e-16     2.00e-15     5.18e-16     100%
+🥉    no_de_operator       6.66e-16     2.04e-15     1.75e-15     100%
+ 4   baseline             4.44e-16     2.26e-15     1.12e-15     100%
+ 5   no_diversity_restart 4.44e-16     2.26e-15     1.12e-15     100%
+ 6   no_escape_mechanisms 7.77e-16     2.69e-15     1.27e-15     100%
+ 7   no_local_search      2.00e-07     3.20e-05     2.96e-05     10%
+================================================================================
+Ablation Study Progress: 100%|███████████████████████████████████████████████████████████████████| 700/700 [37:40<00:00,  3.23s/it] 
+
+================================================================================
+ABLATION STUDY COMPLETE!
+================================================================================
+
+FINAL SUMMARY STATISTICS
+================================================================================
+
+🏅 OVERALL RANKING BY MEAN FITNESS:
+--------------------------------------------------
+🥇 no_surrogate         Mean: 0.00e+00 (±4.00e-06)
+🥈 baseline             Mean: 5.75e-01 (±4.04e+00)
+🥉 no_diversity_restart Mean: 5.75e-01 (±4.04e+00)
+ 4 no_de_operator       Mean: 1.23e+00 (±5.70e+00)
+ 5 no_population_decay  Mean: 2.01e+00 (±7.37e+00)
+ 6 no_escape_mechanisms Mean: 2.03e+00 (±7.42e+00)
+ 7 no_local_search      Mean: 3.74e+00 (±8.76e+00)
+
+FUNCTION-SPECIFIC BEST ABLATIONS:
+--------------------------------------------------
+Sphere      : no_surrogate         (4.87e-16)
+Rosenbrock  : no_surrogate         (2.43e-11)
+Rastrigin   : no_surrogate         (2.33e-06)
+Ackley      : no_surrogate         (1.92e-08)
+Griewank    : no_population_decay  (1.09e-15)
+
+Results saved to: ablation_results.csv & ablation_results.json
+================================================================================

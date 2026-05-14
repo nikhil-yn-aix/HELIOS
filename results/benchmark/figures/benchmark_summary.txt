@@ -1,0 +1,43 @@
+METAHEURISTIC BENCHMARK ANALYSIS SUMMARY
+==================================================
+
+Analysis Date: 2025-07-01 14:43:03
+Total Experiments: 1000
+Algorithms Tested: 5
+Functions Tested: 5
+Dimensions Tested: 4
+
+OVERALL WINNER
+--------------------
+WINNER: HeliosAS
+
+WIN PERCENTAGES (Best Performance per Function-Dimension)
+-------------------------------------------------------
+                 HeliosAS:   50.0%
+               CMAES:   35.0%
+DifferentialEvolution:   10.0%
+              COBYLA:    5.0%
+
+SUCCESS RATES
+---------------
+                 HeliosAS:  82.0%
+               CMAES:  73.5%
+DifferentialEvolution:  51.0%
+              COBYLA:  35.5%
+                 PSO:   5.5%
+
+AVERAGE EVALUATIONS USED
+-------------------------
+              COBYLA:    24811
+               CMAES:    38850
+                 HeliosAS:    54912
+DifferentialEvolution:   404448
+                 PSO:  1000000
+
+AVERAGE EXECUTION TIME
+-----------------------
+              COBYLA:   27.2s
+DifferentialEvolution:   53.9s
+                 PSO:   55.2s
+               CMAES:   69.4s
+                 HeliosAS:  119.9s

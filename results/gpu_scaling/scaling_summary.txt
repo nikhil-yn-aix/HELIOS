@@ -1,0 +1,129 @@
+CuPy detected - GPU acceleration enabled
+GPU Device: <CUDA Device 0>
+GPU Memory: 22.0 GB
+Available GPU Memory: 21.8 GB
+
+============================================================
+HELIOS-MP SCALING ANALYSIS SUITE
+============================================================
+
+ANALYSIS 1: SPHERE FUNCTION
+   Characteristics: Smooth, unimodal, simple optimization
+
+================================================================================
+COMPREHENSIVE HELIOS-MP SCALING ANALYSIS - SPHERE
+================================================================================
+Function: Sphere
+Bounds template: [-10, 10]
+Total tests to run: 36
+Estimated duration: 720-3240 seconds
+
+D=200, P=160K: : 100%|██████████████████████████████████████████████████████████████████████████████| 36/36 [02:53<00:00]
+                                                                                                                         
+======================================================================                                                   
+GENERATING VISUALIZATIONS FOR SPHERE
+======================================================================
+Creating plots: 6/6|████████████████████████████████████████████████████████████████████████████████████████████████████|
+
+======================================================================
+STATISTICAL ANALYSIS FOR SPHERE
+======================================================================
+
+SUMMARY BY DIMENSION for Sphere:
+          evals_per_second                            peak_gpu_memory_mb                   convergence_rate        final_fitness          
+                      mean          std           max               mean       std     max             mean    std          mean  std  min
+dimension                                                                                                                                 
+10             7040572.368  7015128.741  1.900616e+07             67.000    72.716   196.0            0.176  0.037           0.0  0.0  0.0
+20             6176616.505  5746188.158  1.557207e+07            143.000   205.424   534.0            0.107  0.025           0.0  0.0  0.0
+30             5696060.265  5258233.104  1.420803e+07            124.333   179.943   456.0            0.071  0.019           0.0  0.0  0.0
+50             5093046.943  4410791.745  1.199823e+07            256.333   372.990   962.0            0.043  0.010           0.0  0.0  0.0
+100            4181779.018  3234258.347  8.670218e+06            749.500   956.044  2410.0            0.027  0.006           0.0  0.0  0.0
+200            3286214.894  2161340.119  5.648304e+06           1122.167  1208.294  2786.0            0.019  0.004           0.0  0.0  0.0
+
+SCALING ANALYSIS INSIGHTS for Sphere:
+   Performance Scaling Exponent: 0.821
+   Memory Scaling Exponent: 1.856
+   Scaling Quality: Good
+
+🎯 OPTIMAL CONFIGURATION for Sphere:
+   Dimensions: 20
+   Population: 10,000
+   Efficiency Score: 1613105490.96
+
+==================================================
+GENERATING REPORTS
+==================================================
+✅ COMPREHENSIVE SCALING ANALYSIS for SPHERE COMPLETE!
+Generated Files:
+   6 visualization plots
+   JSON report: helios_mp_sphere_scaling_report.json
+   TXT report: helios_mp_sphere_scaling_report.txt
+   Tests completed: 36/36
+
+ANALYSIS 2: RASTRIGIN FUNCTION
+   Characteristics: Highly multimodal, many local minima, challenging
+
+================================================================================
+COMPREHENSIVE HELIOS-MP SCALING ANALYSIS - RASTRIGIN
+================================================================================
+Function: Rastrigin
+Bounds template: [-5.12, 5.12]
+Total tests to run: 36
+Estimated duration: 720-3240 seconds
+
+D=200, P=160K: : 100%|██████████████████████████████████████████████████████████████████████████████| 36/36 [04:04<00:00]
+                                                                                                                         
+======================================================================                                                   
+GENERATING VISUALIZATIONS FOR RASTRIGIN
+======================================================================
+Creating plots: 6/6|████████████████████████████████████████████████████████████████████████████████████████████████████|
+
+======================================================================
+STATISTICAL ANALYSIS FOR RASTRIGIN
+======================================================================
+
+SUMMARY BY DIMENSION for Rastrigin:
+          evals_per_second                            peak_gpu_memory_mb                   convergence_rate         final_fitness                  
+                      mean          std           max               mean       std     max             mean     std          mean      std      min
+dimension                                                                                                                                          
+10             6227997.297  6135720.791  1.653859e+07             60.667    86.185   212.0           84.869  93.193         0.000    0.000    0.000
+20             5208676.786  5020915.410  1.359257e+07            159.833   212.977   562.0            0.002   0.004         5.145    3.410    0.012
+30             4591110.809  4301568.641  1.161711e+07            169.833   188.782   496.0            0.000   0.000        20.580    8.061   10.945
+50             3877082.839  3451555.149  9.360349e+06            315.167   389.539  1026.0            0.000   0.000        69.459    9.878   52.851
+100            3126408.708  2641102.671  7.237939e+06            743.167  1032.474  2534.0            0.000   0.000       150.664   33.560  110.686
+200            2452272.277  1821599.851  4.758846e+06           1097.833  1361.646  3034.0            0.000   0.000       340.728  127.313  208.505
+
+SCALING ANALYSIS INSIGHTS for Rastrigin:
+   Performance Scaling Exponent: 0.848
+   Memory Scaling Exponent: 1.893
+   Scaling Quality: Good
+
+🎯 OPTIMAL CONFIGURATION for Rastrigin:
+   Dimensions: 10
+   Population: 10,000
+   Efficiency Score: 1360005868.94
+
+==================================================
+GENERATING REPORTS
+==================================================
+✅ COMPREHENSIVE SCALING ANALYSIS for RASTRIGIN COMPLETE!
+Generated Files:
+   6 visualization plots
+   JSON report: helios_mp_rastrigin_scaling_report.json
+   TXT report: helios_mp_rastrigin_scaling_report.txt
+   Tests completed: 36/36
+
+============================================================
+HELIOS-MP SCALING ANALYSIS COMPLETE!
+============================================================
+Summary:
+   ✅ Sphere function: 36 tests
+   ✅ Rastrigin function: 36 tests
+   Generated 12 plots total (6 per function)
+   Generated 4 reports total (JSON + TXT per function)
+
+Use these results for:
+   - Performance optimization
+   - Resource allocation planning
+   - Algorithm parameter tuning
+   - Publication figures and tables

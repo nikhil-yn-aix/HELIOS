@@ -1,0 +1,40 @@
+# Private review and revision materials
+paper/HELIOS_ANONYMOUS.pdf
+paper/DB_report_HELIOS.pdf
+paper/paper_old/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+
+# Distribution
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp outputs
+*.log

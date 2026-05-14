@@ -1,0 +1,452 @@
+(AI-torch) PS C:\Users\Naveen\OneDrive\Desktop\MetaHeuristics\HiPC> & C:/Users/Naveen/anaconda3/envs/AI-torch/python.exe c:/Users/Naveen/OneDrive/Desktop/MetaHeuristics/HiPC/bench_helios_as.py
+Successfully imported HeliosAS from helios_as.py.
+
+Parallelized HeliosAS Benchmark (from helios_as.py)
+============================================================
+Population: 80 ravens + 80 wolves = 160 total
+Max Iterations: 5,000
+Stagnation Threshold: 2000 iterations
+Conceptual Evaluation Budget: 1,000,000
+Parallel workers: 8
+
+Running 200 experiments in parallel...
+Successfully imported HeliosAS from helios_as.py.
+HeliosAS Fixed:   1%|▏                           | 26/5000 [00:00<00:50, 98.83iter/s, Best=2.4818e-04, Evals=2584, SF=2, LS=0, PE=0, BS=0, ExS=0.010, ExlS=0.010]Successfully imported HeliosAS from helios_as.py.
+Successfully imported HeliosAS from helios_as.py.
+HeliosAS Fixed:   1%|▏                           | 26/5000 [00:00<00:50, 98.83iter/s, Best=1.7282e-04, Evals=2742, SF=0, LS=0, PE=0, BS=0, ExS=0.010, ExlS=0.010]Successfully imported HeliosAS from helios_as.py.
+HeliosAS Fixed:   1%|▏                           | 26/5000 [00:00<00:50, 98.83iter/s, Best=1.7282e-04, Evals=2900, SF=1, LS=0, PE=0, BS=0, ExS=0.010, ExlS=0.010]Successfully imported HeliosAS from helios_as.py.
+HeliosAS Fixed:   0%|                                     | 0/5000 [00:00<?, ?iter/s, Best=7.0316e-02, Evals=1110, SF=5, LS=0, PE=0, BS=0, ExS=0.011, ExlS=0.010]Successfully imported HeliosAS from helios_as.py.
+HeliosAS Fixed:   0%|                                     | 0/5000 [00:00<?, ?iter/s, Best=4.7906e-04, Evals=2219, SF=4, LS=0, PE=0, BS=0, ExS=0.010, ExlS=0.001]Successfully imported HeliosAS from helios_as.py.
+HeliosAS Fixed:   0%|                           | 17/5000 [00:00<00:29, 166.14iter/s, Best=4.7906e-04, Evals=2409, SF=9, LS=0, PE=0, BS=0, ExS=0.011, ExlS=0.010]Successfully imported HeliosAS from helios_as.py.
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:17<00:23, 123.13iter/s, Best=2.5000e-16, Evals=10419, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 10D Run  3 | Fitness: 2.5000e-16 | Evals:  10419 | Time: 17.07s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:18<00:24, 116.25iter/s, Best=2.5000e-16, Evals=9401, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 10D Run  1 | Fitness: 2.5000e-16 | Evals:   9401 | Time: 18.12s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2201/5000 [00:18<00:23, 120.14iter/s, Best=2.4892e-16, Evals=14535, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+HeliosAS Fixed:  42%|████████▊            | 2089/5000 [00:18<00:23, 126.04iter/s, Best=2.2912e-16, Evals=12791, SF=1799, LS=3, PE=0, BS=0, ExS=0.370, ExlS=0.005]Completed:     Sphere 10D Run  5 | Fitness: 2.4892e-16 | Evals:  14535 | Time: 18.33s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2201/5000 [00:18<00:23, 116.87iter/s, Best=2.4981e-16, Evals=13314, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 10D Run  7 | Fitness: 2.4981e-16 | Evals:  13314 | Time: 18.85s | Status: Success
+HeliosAS Fixed:  46%|█████████▋           | 2301/5000 [00:19<00:23, 115.89iter/s, Best=2.4103e-16, Evals=13589, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  44%|█████████▎           | 2213/5000 [00:19<00:23, 117.19iter/s, Best=2.3351e-16, Evals=14842, SF=1919, LS=3, PE=0, BS=0, ExS=0.394, ExlS=0.005]Completed:     Sphere 10D Run  8 | Fitness: 2.4103e-16 | Evals:  13589 | Time: 19.86s | Status: Success
+HeliosAS Fixed:  46%|█████████▋           | 2301/5000 [00:20<00:23, 114.54iter/s, Best=2.2912e-16, Evals=13755, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 10D Run  6 | Fitness: 2.2912e-16 | Evals:  13755 | Time: 20.10s | Status: Success
+HeliosAS Fixed:  46%|█████████▋           | 2301/5000 [00:20<00:23, 113.15iter/s, Best=2.4462e-16, Evals=14834, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 10D Run  2 | Fitness: 2.4462e-16 | Evals:  14834 | Time: 20.34s | Status: Success
+HeliosAS Fixed:  46%|█████████▋           | 2301/5000 [00:20<00:24, 110.94iter/s, Best=2.3351e-16, Evals=15200, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+HeliosAS Fixed:   8%|█▉                      | 401/5000 [00:03<00:45, 100.92iter/s, Best=2.5000e-16, Evals=6013, SF=203, LS=1, PE=0, BS=0, ExS=0.050, ExlS=0.008]Completed:     Sphere 10D Run  4 | Fitness: 2.3351e-16 | Evals:  15200 | Time: 20.75s | Status: Success
+HeliosAS Fixed:  19%|████▍                   | 935/5000 [00:16<01:11, 56.83iter/s, Best=7.3265e-16, Evals=16079, SF=735, LS=2, PE=0, BS=0, ExS=0.157, ExlS=0.005] 
+Completed:     Sphere 10D Run  9 | Fitness: 2.5000e-16 | Evals:   9458 | Time: 19.94s | Status: Success
+HeliosAS Fixed:  48%|██████████           | 2401/5000 [00:21<00:22, 113.54iter/s, Best=2.1035e-16, Evals=13555, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 10D Run 10 | Fitness: 2.1035e-16 | Evals:  13555 | Time: 21.15s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:35<00:48, 59.18iter/s, Best=7.4950e-16, Evals=27494, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 30D Run  2 | Fitness: 7.4950e-16 | Evals:  27494 | Time: 35.51s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:36<00:46, 60.07iter/s, Best=7.5000e-16, Evals=15665, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 30D Run  1 | Fitness: 7.5000e-16 | Evals:  15665 | Time: 36.65s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:36<00:46, 60.38iter/s, Best=7.5000e-16, Evals=15848, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 30D Run  5 | Fitness: 7.5000e-16 | Evals:  15848 | Time: 36.46s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:36<00:46, 59.68iter/s, Best=7.3265e-16, Evals=27952, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 30D Run  4 | Fitness: 7.3265e-16 | Evals:  27952 | Time: 36.88s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:38<00:45, 59.82iter/s, Best=6.3122e-16, Evals=27901, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 30D Run  6 | Fitness: 6.3122e-16 | Evals:  27901 | Time: 38.47s | Status: Success
+HeliosAS Fixed:  56%|████████████▎         | 2801/5000 [00:45<00:35, 61.37iter/s, Best=7.1381e-16, Evals=30319, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  12%|██▉                     | 617/5000 [00:11<01:22, 53.18iter/s, Best=6.8012e-16, Evals=11667, SF=316, LS=3, PE=0, BS=0, ExS=0.073, ExlS=0.007]Completed:     Sphere 30D Run  3 | Fitness: 7.1381e-16 | Evals:  30319 | Time: 45.65s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:35<00:48, 59.97iter/s, Best=7.5000e-16, Evals=14842, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:   6%|█▌                       | 320/5000 [00:08<02:11, 35.48iter/s, Best=1.2500e-15, Evals=9342, SF=121, LS=1, PE=1, BS=0, ExS=0.034, ExlS=0.009]Completed:     Sphere 30D Run  8 | Fitness: 7.5000e-16 | Evals:  14842 | Time: 35.04s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:36<00:47, 59.51iter/s, Best=7.4517e-16, Evals=27703, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+HeliosAS Fixed:   0%|                                      | 0/5000 [00:00<?, ?iter/s, Best=1.5383e+00, Evals=478, SF=0, LS=0, PE=0, BS=0, ExS=0.010, ExlS=0.010]Completed:     Sphere 30D Run  7 | Fitness: 7.4517e-16 | Evals:  27703 | Time: 36.99s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:40<00:47, 57.06iter/s, Best=6.8012e-16, Evals=28348, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  45%|█████████▉            | 2265/5000 [00:39<00:42, 63.63iter/s, Best=7.0525e-16, Evals=26714, SF=1768, LS=3, PE=0, BS=0, ExS=0.363, ExlS=0.005]Completed:     Sphere 30D Run  9 | Fitness: 6.8012e-16 | Evals:  28348 | Time: 40.33s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [00:43<00:43, 57.17iter/s, Best=7.0525e-16, Evals=29104, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 30D Run 10 | Fitness: 7.0525e-16 | Evals:  29104 | Time: 43.75s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:09<01:35, 30.41iter/s, Best=8.0798e-04, Evals=70314, SF=2001, LS=0, PE=1, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 50D Run  1 | Fitness: 8.0798e-04 | Evals:  70314 | Time: 69.09s | Status: Fail
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [01:11<01:30, 30.83iter/s, Best=1.2200e-15, Evals=60838, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 50D Run  2 | Fitness: 1.2200e-15 | Evals:  60838 | Time: 71.39s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [01:12<01:25, 31.62iter/s, Best=1.1550e-15, Evals=59616, SF=2001, LS=3, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 50D Run  3 | Fitness: 1.1550e-15 | Evals:  59616 | Time: 72.78s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [01:10<01:29, 31.17iter/s, Best=1.2500e-15, Evals=41924, SF=2001, LS=1, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 50D Run  4 | Fitness: 1.2500e-15 | Evals:  41924 | Time: 70.61s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:48<02:30, 19.32iter/s, Best=1.2500e-15, Evals=31352, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 50D Run  5 | Fitness: 1.2500e-15 | Evals:  31352 | Time: 108.76s | Status: Success
+HeliosAS Fixed:  44%|██████████             | 2201/5000 [01:57<02:29, 18.73iter/s, Best=1.2340e-15, Evals=6e+4, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 50D Run  6 | Fitness: 1.2340e-15 | Evals:  59979 | Time: 117.53s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [03:18<04:12, 11.08iter/s, Best=1.2108e-15, Evals=56069, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 50D Run  7 | Fitness: 1.2108e-15 | Evals:  56069 | Time: 198.57s | Status: Success
+HeliosAS Fixed:  44%|██████████             | 2201/5000 [03:18<04:12, 11.09iter/s, Best=1.1607e-15, Evals=6e+4, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 50D Run  8 | Fitness: 1.1607e-15 | Evals:  59977 | Time: 198.41s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [03:06<03:22, 12.85iter/s, Best=1.2225e-15, Evals=56232, SF=2001, LS=2, PE=1, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 50D Run  9 | Fitness: 1.2225e-15 | Evals:  56232 | Time: 186.82s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [03:04<03:36, 12.47iter/s, Best=1.2500e-15, Evals=42455, SF=2001, LS=1, PE=1, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 50D Run 10 | Fitness: 1.2500e-15 | Evals:  42455 | Time: 184.55s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [06:14<07:56,  5.88iter/s, Best=2.5000e-15, Evals=18223, SF=2001, LS=1, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 100D Run  1 | Fitness: 2.5000e-15 | Evals:  18223 | Time: 374.33s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [06:21<08:05,  5.77iter/s, Best=2.4978e-15, Evals=59707, SF=2001, LS=1, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 100D Run  2 | Fitness: 2.4978e-15 | Evals:  59707 | Time: 381.69s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [05:38<07:46,  6.21iter/s, Best=1.5461e-04, Evals=84346, SF=2001, LS=0, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  41%|████████▉             | 2031/5000 [05:29<02:21, 20.95iter/s, Best=2.4800e-15, Evals=57726, SF=1632, LS=3, PE=1, BS=0, ExS=0.336, ExlS=0.005]Completed:     Sphere 100D Run  3 | Fitness: 1.5461e-04 | Evals:  84346 | Time: 338.29s | Status: Fail
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [05:44<06:12,  6.98iter/s, Best=2.4800e-15, Evals=66474, SF=2001, LS=3, PE=1, BS=0, ExS=0.410, ExlS=0.005]
+Completed:     Sphere 100D Run  4 | Fitness: 2.4800e-15 | Evals:  66474 | Time: 344.17s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [00:24<00:26, 99.89iter/s, Best=5.6843e-14, Evals=10109, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 10D Run  1 | Fitness: 5.6843e-14 | Evals:  10109 | Time: 24.07s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [04:09<05:43,  8.44iter/s, Best=2.5000e-15, Evals=16330, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 100D Run  6 | Fitness: 2.5000e-15 | Evals:  16330 | Time: 249.07s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [04:15<05:24,  8.63iter/s, Best=2.4806e-15, Evals=58884, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 100D Run  5 | Fitness: 2.4806e-15 | Evals:  58884 | Time: 255.04s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:19<00:27, 105.44iter/s, Best=2.8422e-14, Evals=8561, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 10D Run  2 | Fitness: 2.8422e-14 | Evals:   8561 | Time: 19.93s | Status: Success
+HeliosAS Fixed:  27%|█████▉                | 1362/5000 [00:13<00:34, 106.28iter/s, Best=2.8422e-14, Evals=10462, SF=668, LS=1, PE=0, BS=0, ExS=0.143, ExlS=0.005] 
+Completed:     Sphere 100D Run  7 | Fitness: 2.5000e-15 | Evals:  35648 | Time: 248.77s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:19<00:26, 107.76iter/s, Best=8.5265e-14, Evals=10386, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 10D Run  4 | Fitness: 8.5265e-14 | Evals:  10386 | Time: 19.50s | Status: Success
+HeliosAS Fixed:  54%|███████████▎         | 2701/5000 [00:24<00:20, 112.14iter/s, Best=2.8422e-14, Evals=14836, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  45%|█████████▌           | 2268/5000 [00:20<00:22, 124.16iter/s, Best=2.8422e-14, Evals=11617, SF=1578, LS=1, PE=0, BS=0, ExS=0.325, ExlS=0.005]Completed:  Rastrigin 10D Run  3 | Fitness: 2.8422e-14 | Evals:  14836 | Time: 24.09s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [04:19<04:40,  9.27iter/s, Best=2.4958e-15, Evals=61534, SF=2001, LS=3, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 100D Run  8 | Fitness: 2.4958e-15 | Evals:  61534 | Time: 259.13s | Status: Success
+HeliosAS Fixed:  54%|███████████▎         | 2701/5000 [00:24<00:20, 110.91iter/s, Best=2.8422e-14, Evals=12291, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 10D Run  5 | Fitness: 2.8422e-14 | Evals:  12291 | Time: 24.36s | Status: Success
+HeliosAS Fixed:  17%|████                    | 847/5000 [00:07<00:39, 105.23iter/s, Best=8.5265e-14, Evals=7055, SF=554, LS=1, PE=0, BS=0, ExS=0.121, ExlS=0.005] 
+Completed:  Rastrigin 10D Run  6 | Fitness: 2.8422e-14 | Evals:  12399 | Time: 21.24s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:19<00:25, 111.76iter/s, Best=2.8422e-14, Evals=9237, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 10D Run  7 | Fitness: 2.8422e-14 | Evals:   9237 | Time: 19.70s | Status: Success
+HeliosAS Fixed:  46%|█████████▋           | 2301/5000 [00:20<00:24, 111.19iter/s, Best=2.8422e-14, Evals=10102, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 10D Run  8 | Fitness: 2.8422e-14 | Evals:  10102 | Time: 20.70s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:20<00:24, 111.31iter/s, Best=8.5265e-14, Evals=9614, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 10D Run  9 | Fitness: 8.5265e-14 | Evals:   9614 | Time: 20.68s | Status: Success
+HeliosAS Fixed:  54%|███████████▎         | 2701/5000 [00:24<00:20, 110.29iter/s, Best=5.6843e-14, Evals=11681, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 10D Run 10 | Fitness: 5.6843e-14 | Evals:  11681 | Time: 24.49s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [01:51<02:00, 21.57iter/s, Best=2.4709e-15, Evals=63722, SF=2001, LS=3, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 100D Run  9 | Fitness: 2.4709e-15 | Evals:  63722 | Time: 111.34s | Status: Success
+HeliosAS Fixed:  52%|███████████▍          | 2601/5000 [00:49<00:46, 52.08iter/s, Best=4.5475e-13, Evals=23254, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 30D Run  1 | Fitness: 4.5475e-13 | Evals:  23254 | Time: 49.95s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [01:46<01:54, 22.64iter/s, Best=2.4205e-15, Evals=64947, SF=2001, LS=3, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:     Sphere 100D Run 10 | Fitness: 2.4205e-15 | Evals:  64947 | Time: 106.09s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:47<01:00, 46.56iter/s, Best=1.1369e-13, Evals=16269, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 30D Run  6 | Fitness: 1.1369e-13 | Evals:  16269 | Time: 47.28s | Status: Success
+HeliosAS Fixed:  70%|███████████████▍      | 3501/5000 [01:07<00:28, 51.94iter/s, Best=5.6843e-14, Evals=35072, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 30D Run  3 | Fitness: 5.6843e-14 | Evals:  35072 | Time: 67.41s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:41<00:52, 53.13iter/s, Best=1.1369e-13, Evals=14950, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  77%|████████████████▉     | 3847/5000 [01:12<00:15, 75.23iter/s, Best=5.1159e-13, Evals=43167, SF=1948, LS=1, PE=0, BS=0, ExS=0.399, ExlS=0.005]Completed:  Rastrigin 30D Run  7 | Fitness: 1.1369e-13 | Evals:  14950 | Time: 41.43s | Status: Success
+HeliosAS Fixed:  78%|█████████████████▏    | 3901/5000 [01:13<00:20, 53.17iter/s, Best=5.1159e-13, Evals=43297, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  35%|████████               | 1749/5000 [00:35<00:52, 61.47iter/s, Best=1.1369e-13, Evals=31004, SF=255, LS=1, PE=0, BS=0, ExS=0.061, ExlS=0.007]Completed:  Rastrigin 30D Run  4 | Fitness: 5.1159e-13 | Evals:  43297 | Time: 73.37s | Status: Success
+HeliosAS Fixed:  98%|█████████████████████▌| 4901/5000 [01:29<00:01, 54.47iter/s, Best=2.2737e-13, Evals=60719, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 30D Run  2 | Fitness: 2.2737e-13 | Evals:  60719 | Time: 89.98s | Status: Success
+HeliosAS Fixed:  82%|██████████████████    | 4101/5000 [01:17<00:16, 53.00iter/s, Best=5.6843e-14, Evals=44578, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 30D Run  5 | Fitness: 5.6843e-14 | Evals:  44578 | Time: 77.41s | Status: Success
+HeliosAS Fixed:  11%|██▋                     | 552/5000 [00:15<02:19, 31.83iter/s, Best=1.0059e-03, Evals=27227, SF=107, LS=0, PE=0, BS=0, ExS=0.031, ExlS=0.009]
+HeliosAS Fixed:  19%|████▍                   | 928/5000 [00:26<01:59, 34.09iter/s, Best=9.8506e-04, Evals=44663, SF=237, LS=0, PE=0, BS=0, ExS=0.057, ExlS=0.008]Completed:  Rastrigin 30D Run  8 | Fitness: 4.5475e-13 | Evals:  25635 | Time: 52.01s | Status: Success
+HeliosAS Fixed:  70%|███████████████▍      | 3501/5000 [01:02<00:26, 55.61iter/s, Best=1.1369e-13, Evals=35647, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 30D Run  9 | Fitness: 1.1369e-13 | Evals:  35647 | Time: 62.96s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:55<01:04, 41.69iter/s, Best=1.1369e-13, Evals=46469, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 50D Run  5 | Fitness: 1.1369e-13 | Evals:  46469 | Time: 55.21s | Status: Success
+HeliosAS Fixed: 100%|███████████████████████| 5000/5000 [01:20<00:00, 62.24iter/s, Best=4.3316e-06, Evals=86834, SF=359, LS=0, PE=0, BS=0, ExS=0.082, ExlS=0.006] 
+Completed:  Rastrigin 30D Run 10 | Fitness: 4.3316e-06 | Evals:  86834 | Time: 80.34s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [00:57<01:01, 42.03iter/s, Best=3.4106e-13, Evals=47925, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 50D Run  6 | Fitness: 3.4106e-13 | Evals:  47925 | Time: 57.13s | Status: Success
+HeliosAS Fixed:  54%|███████████▉          | 2701/5000 [01:05<00:55, 41.51iter/s, Best=3.4106e-13, Evals=62026, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 50D Run  4 | Fitness: 3.4106e-13 | Evals:  62026 | Time: 65.08s | Status: Success
+HeliosAS Fixed:  72%|███████████████▊      | 3601/5000 [01:24<00:32, 42.55iter/s, Best=1.1369e-13, Evals=89509, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 50D Run  1 | Fitness: 1.1369e-13 | Evals:  89509 | Time: 84.64s | Status: Success
+HeliosAS Fixed:  66%|██████████████▌       | 3301/5000 [01:17<00:39, 42.75iter/s, Best=1.1369e-13, Evals=75180, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 50D Run  3 | Fitness: 1.1369e-13 | Evals:  75180 | Time: 77.24s | Status: Success
+HeliosAS Fixed:  44%|██████████             | 2201/5000 [00:52<01:06, 42.29iter/s, Best=2.2737e-13, Evals=4e+4, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 50D Run  7 | Fitness: 2.2737e-13 | Evals:  39977 | Time: 52.05s | Status: Success
+HeliosAS Fixed:  80%|█████████████████▌    | 4001/5000 [01:32<00:23, 43.09iter/s, Best=3.4106e-13, Evals=99178, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 50D Run  2 | Fitness: 3.4106e-13 | Evals:  99178 | Time: 92.86s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:58<01:08, 39.47iter/s, Best=3.4106e-13, Evals=38693, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 50D Run  8 | Fitness: 3.4106e-13 | Evals:  38693 | Time: 58.31s | Status: Success
+HeliosAS Fixed:  56%|████████████▎         | 2801/5000 [01:07<00:53, 41.30iter/s, Best=4.5475e-13, Evals=47022, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 50D Run  9 | Fitness: 4.5475e-13 | Evals:  47022 | Time: 67.82s | Status: Success
+HeliosAS Fixed:  72%|███████████████▊      | 3601/5000 [01:26<00:33, 41.53iter/s, Best=1.1369e-13, Evals=91674, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 50D Run 10 | Fitness: 1.1369e-13 | Evals:  91674 | Time: 86.72s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:27<02:01, 23.88iter/s, Best=1.1369e-12, Evals=20912, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 100D Run  2 | Fitness: 1.1369e-12 | Evals:  20912 | Time: 88.00s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2184/5000 [01:34<02:02, 23.01iter/s, Best=6.1013e-03, Evals=124443, SF=2001, LS=0, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  20%|████▋                  | 1024/5000 [00:46<02:51, 23.17iter/s, Best=1.1369e-12, Evals=15499, SF=925, LS=1, PE=0, BS=0, ExS=0.195, ExlS=0.005]Completed:  Rastrigin 100D Run  1 | Fitness: 6.1013e-03 | Evals: 124443 | Time: 94.94s | Status: Success
+HeliosAS Fixed:  45%|█████████▌           | 2264/5000 [01:43<02:05, 21.87iter/s, Best=5.5299e-03, Evals=207618, SF=2001, LS=0, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 100D Run  3 | Fitness: 5.5299e-03 | Evals: 207618 | Time: 103.54s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:29<02:03, 23.55iter/s, Best=2.2737e-13, Evals=28143, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 100D Run  5 | Fitness: 2.2737e-13 | Evals:  28143 | Time: 89.21s | Status: Success
+HeliosAS Fixed:  49%|██████████▎          | 2445/5000 [01:45<01:50, 23.21iter/s, Best=5.9917e-03, Evals=135838, SF=2001, LS=0, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 100D Run  4 | Fitness: 5.9917e-03 | Evals: 135838 | Time: 105.36s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:19<00:25, 110.84iter/s, Best=1.8000e-11, Evals=9170, SF=2001, LS=2, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  44%|█████████▌            | 2180/5000 [00:19<00:21, 129.47iter/s, Best=2.7232e-11, Evals=5601, SF=689, LS=13, PE=4, BS=0, ExS=0.148, ExlS=0.005]Completed: Rosenbrock 10D Run  1 | Fitness: 1.8000e-11 | Evals:   9170 | Time: 19.86s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:19<00:25, 111.24iter/s, Best=2.7423e-11, Evals=6466, SF=2001, LS=1, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 10D Run  3 | Fitness: 2.7423e-11 | Evals:   6466 | Time: 19.79s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [02:07<02:56, 16.42iter/s, Best=1.1369e-12, Evals=17336, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 100D Run  6 | Fitness: 1.1369e-12 | Evals:  17336 | Time: 127.98s | Status: Success
+HeliosAS Fixed:  70%|███████████████▍      | 3501/5000 [01:07<00:29, 51.51iter/s, Best=2.7232e-11, Evals=8340, SF=2001, LS=13, PE=4, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 10D Run  2 | Fitness: 2.7232e-11 | Evals:   8340 | Time: 67.97s | Status: Success
+HeliosAS Fixed:  41%|████████▌            | 2036/5000 [02:10<03:09, 15.62iter/s, Best=6.4230e-03, Evals=112574, SF=2001, LS=0, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 100D Run  7 | Fitness: 6.4230e-03 | Evals: 112574 | Time: 130.35s | Status: Success
+HeliosAS Fixed:  62%|█████████████▋        | 3101/5000 [01:02<00:37, 49.98iter/s, Best=2.7239e-11, Evals=8764, SF=2001, LS=10, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 10D Run  5 | Fitness: 2.7239e-11 | Evals:   8764 | Time: 62.05s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:17<00:21, 128.40iter/s, Best=2.3854e-11, Evals=7889, SF=2001, LS=2, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 10D Run  6 | Fitness: 2.3854e-11 | Evals:   7889 | Time: 17.92s | Status: Success
+HeliosAS Fixed:  13%|███▍                      | 656/5000 [00:13<09:04,  7.98iter/s, Best=2.7233e-11, Evals=3649, SF=56, LS=5, PE=2, BS=0, ExS=0.021, ExlS=0.009] 
+Completed: Rosenbrock 10D Run  7 | Fitness: 2.7291e-11 | Evals:   7638 | Time: 26.84s | Status: Success
+HeliosAS Fixed: 100%|███████████████████████| 5000/5000 [02:55<00:00, 28.57iter/s, Best=2.3385e-11, Evals=15463, SF=99, LS=48, PE=1, BS=0, ExS=0.030, ExlS=0.009] 
+Completed: Rosenbrock 10D Run  4 | Fitness: 2.3385e-11 | Evals:  15463 | Time: 175.01s | Status: Success
+HeliosAS Fixed:  46%|██████████▌            | 2301/5000 [01:56<02:16, 19.74iter/s, Best=2.7051e-11, Evals=6547, SF=2001, LS=2, PE=1, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 10D Run  9 | Fitness: 2.7051e-11 | Evals:   6547 | Time: 116.58s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [03:41<05:06,  9.47iter/s, Best=4.5475e-13, Evals=22067, SF=2001, LS=1, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:   0%|                           | 13/5000 [00:00<00:40, 122.59iter/s, Best=2.8929e+01, Evals=2082, SF=1, LS=0, PE=0, BS=0, ExS=0.010, ExlS=0.001]Completed:  Rastrigin 100D Run  9 | Fitness: 4.5475e-13 | Evals:  22067 | Time: 221.79s | Status: Success
+HeliosAS Fixed:  50%|███████████▌           | 2501/5000 [02:17<02:17, 18.23iter/s, Best=2.4892e-11, Evals=9526, SF=2001, LS=2, PE=5, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 10D Run 10 | Fitness: 2.4892e-11 | Evals:   9526 | Time: 137.20s | Status: Success
+HeliosAS Fixed:  66%|██████████████▌       | 3301/5000 [02:37<01:20, 20.98iter/s, Best=2.7233e-11, Evals=7895, SF=2001, LS=12, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 10D Run  8 | Fitness: 2.7233e-11 | Evals:   7895 | Time: 157.31s | Status: Success
+HeliosAS Fixed:  46%|█████████▌           | 2276/5000 [05:08<06:09,  7.37iter/s, Best=5.4973e-03, Evals=157704, SF=2001, LS=0, PE=0, BS=0, ExS=0.410, ExlS=0.005] 
+Completed:  Rastrigin 100D Run  8 | Fitness: 5.4973e-03 | Evals: 157704 | Time: 308.96s | Status: Success
+HeliosAS Fixed:  45%|█████████▍           | 2251/5000 [04:25<05:24,  8.48iter/s, Best=2.8216e+01, Evals=166178, SF=2001, LS=0, PE=4, BS=0, ExS=0.410, ExlS=0.005]
+HeliosAS Fixed:  21%|████▊                  | 1041/5000 [02:01<12:49,  5.15iter/s, Best=2.8511e+01, Evals=58424, SF=940, LS=0, PE=2, BS=0, ExS=0.198, ExlS=0.005]Completed: Rosenbrock 30D Run  1 | Fitness: 2.8216e+01 | Evals: 166178 | Time: 265.76s | Status: Fail
+HeliosAS Fixed:  53%|███████████▏         | 2653/5000 [07:03<06:14,  6.26iter/s, Best=6.1803e-03, Evals=147964, SF=2001, LS=0, PE=0, BS=0, ExS=0.410, ExlS=0.005]
+Completed:  Rastrigin 100D Run 10 | Fitness: 6.1803e-03 | Evals: 147964 | Time: 423.85s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [05:01<06:55,  6.97iter/s, Best=2.8702e+01, Evals=130140, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 30D Run  3 | Fitness: 2.8702e+01 | Evals: 130140 | Time: 301.24s | Status: Fail
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [04:40<05:29,  8.19iter/s, Best=2.8584e-11, Evals=16321, SF=2001, LS=2, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 30D Run  5 | Fitness: 2.8584e-11 | Evals:  16321 | Time: 280.88s | Status: Success
+HeliosAS Fixed:  43%|█████████            | 2151/5000 [05:02<06:40,  7.11iter/s, Best=2.8658e+01, Evals=126415, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 30D Run  4 | Fitness: 2.8658e+01 | Evals: 126415 | Time: 302.66s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [04:26<06:08,  7.87iter/s, Best=2.8511e+01, Evals=127009, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 30D Run  6 | Fitness: 2.8511e+01 | Evals: 127009 | Time: 267.10s | Status: Fail
+HeliosAS Fixed: 100%|███████████████████████| 5000/5000 [05:32<00:00, 15.03iter/s, Best=1.7468e-11, Evals=43436, SF=99, LS=48, PE=2, BS=0, ExS=0.030, ExlS=0.009]
+Completed: Rosenbrock 30D Run  2 | Fitness: 1.7468e-11 | Evals:  43436 | Time: 332.63s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2201/5000 [01:58<02:30, 18.61iter/s, Best=2.8259e+01, Evals=133263, SF=2001, LS=0, PE=4, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 30D Run  9 | Fitness: 2.8259e+01 | Evals: 133263 | Time: 118.34s | Status: Fail
+HeliosAS Fixed: 100%|███████████████████████| 5000/5000 [06:54<00:00, 12.06iter/s, Best=2.0189e-11, Evals=34856, SF=99, LS=48, PE=2, BS=0, ExS=0.030, ExlS=0.009] 
+Completed: Rosenbrock 30D Run  7 | Fitness: 2.0189e-11 | Evals:  34856 | Time: 414.87s | Status: Success
+HeliosAS Fixed:  43%|█████████            | 2151/5000 [03:31<04:40, 10.17iter/s, Best=2.8635e+01, Evals=172892, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 30D Run 10 | Fitness: 2.8635e+01 | Evals: 172892 | Time: 211.48s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [04:05<05:38,  8.56iter/s, Best=4.8655e+01, Evals=134235, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 50D Run  1 | Fitness: 4.8655e+01 | Evals: 134235 | Time: 245.42s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [04:03<05:36,  8.61iter/s, Best=4.8712e+01, Evals=125050, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  41%|████████▋            | 2073/5000 [04:05<00:49, 58.78iter/s, Best=4.8664e+01, Evals=134431, SF=1979, LS=0, PE=2, BS=0, ExS=0.406, ExlS=0.005]Completed: Rosenbrock 50D Run  3 | Fitness: 4.8712e+01 | Evals: 125050 | Time: 243.91s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [04:05<05:39,  8.55iter/s, Best=4.8664e+01, Evals=141349, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 50D Run  2 | Fitness: 4.8664e+01 | Evals: 141349 | Time: 245.69s | Status: Fail
+HeliosAS Fixed: 100%|███████████████████████| 5000/5000 [06:31<00:00, 12.77iter/s, Best=9.3071e-12, Evals=37981, SF=99, LS=47, PE=4, BS=0, ExS=0.030, ExlS=0.009] 
+Completed: Rosenbrock 30D Run  8 | Fitness: 9.3071e-12 | Evals:  37981 | Time: 391.57s | Status: Success
+HeliosAS Fixed:  27%|█████▉                | 1358/5000 [01:31<01:27, 41.56iter/s, Best=4.8739e+01, Evals=76749, SF=1261, LS=0, PE=1, BS=0, ExS=0.262, ExlS=0.005]
+Completed: Rosenbrock 50D Run  5 | Fitness: 4.8736e+01 | Evals: 133143 | Time: 278.50s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [04:41<06:28,  7.45iter/s, Best=4.8724e+01, Evals=131144, SF=2001, LS=0, PE=1, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 50D Run  4 | Fitness: 4.8724e+01 | Evals: 131144 | Time: 281.84s | Status: Fail
+HeliosAS Fixed:  42%|████████▋            | 2075/5000 [01:59<01:02, 46.47iter/s, Best=4.8739e+01, Evals=120058, SF=1978, LS=0, PE=1, BS=0, ExS=0.405, ExlS=0.005] 
+Completed: Rosenbrock 50D Run  6 | Fitness: 4.8713e+01 | Evals: 133205 | Time: 133.00s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [02:00<02:46, 17.45iter/s, Best=4.8739e+01, Evals=126211, SF=2001, LS=0, PE=1, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 50D Run  7 | Fitness: 4.8739e+01 | Evals: 126211 | Time: 120.70s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [01:39<02:17, 21.10iter/s, Best=4.8709e+01, Evals=127133, SF=2001, LS=0, PE=2, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 50D Run  9 | Fitness: 4.8709e+01 | Evals: 127133 | Time: 99.59s | Status: Fail
+HeliosAS Fixed:  46%|█████████▋           | 2301/5000 [01:41<01:58, 22.75iter/s, Best=4.8226e+01, Evals=123181, SF=2001, LS=0, PE=6, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 50D Run 10 | Fitness: 4.8226e+01 | Evals: 123181 | Time: 101.13s | Status: Fail
+HeliosAS Fixed:  47%|█████████▊           | 2351/5000 [01:43<01:56, 22.76iter/s, Best=4.8236e+01, Evals=126196, SF=2001, LS=0, PE=6, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 50D Run  8 | Fitness: 4.8236e+01 | Evals: 126196 | Time: 103.31s | Status: Fail
+HeliosAS Fixed:  46%|█████████▋           | 2301/5000 [02:36<03:03, 14.73iter/s, Best=9.8263e+01, Evals=131081, SF=2001, LS=0, PE=6, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 100D Run  1 | Fitness: 9.8263e+01 | Evals: 131081 | Time: 156.24s | Status: Fail
+HeliosAS Fixed:  45%|█████████▍           | 2251/5000 [03:01<03:41, 12.39iter/s, Best=9.8711e+01, Evals=137067, SF=2001, LS=0, PE=4, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 100D Run  2 | Fitness: 9.8711e+01 | Evals: 137067 | Time: 181.72s | Status: Fail
+HeliosAS Fixed:  47%|█████████▊           | 2351/5000 [03:07<03:31, 12.54iter/s, Best=9.8215e+01, Evals=137117, SF=2001, LS=0, PE=6, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 100D Run  3 | Fitness: 9.8215e+01 | Evals: 137117 | Time: 187.51s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [02:50<03:54, 12.35iter/s, Best=9.8800e+01, Evals=138971, SF=2001, LS=0, PE=1, BS=0, ExS=0.410, ExlS=0.005]
+Completed: Rosenbrock 100D Run  4 | Fitness: 9.8800e+01 | Evals: 138971 | Time: 170.20s | Status: Fail
+HeliosAS Fixed:  45%|█████████▍           | 2251/5000 [03:15<03:58, 11.52iter/s, Best=9.8692e+01, Evals=147158, SF=2001, LS=0, PE=4, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 100D Run  5 | Fitness: 9.8692e+01 | Evals: 147158 | Time: 195.37s | Status: Fail
+HeliosAS Fixed:  41%|████████▌            | 2044/5000 [00:37<00:27, 105.93iter/s, Best=1.9969e-08, Evals=13936, SF=1653, LS=1, PE=0, BS=5, ExS=0.340, ExlS=0.005] 
+Completed: Rosenbrock 100D Run  6 | Fitness: 9.8839e+01 | Evals: 149094 | Time: 184.54s | Status: Fail
+HeliosAS Fixed:  44%|█████████▎           | 2210/5000 [00:38<00:25, 107.50iter/s, Best=1.9969e-08, Evals=14525, SF=1821, LS=1, PE=0, BS=5, ExS=0.374, ExlS=0.005] 
+Completed: Rosenbrock 100D Run  7 | Fitness: 9.8209e+01 | Evals: 135120 | Time: 183.89s | Status: Fail
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [00:40<00:43, 59.25iter/s, Best=1.9969e-08, Evals=15146, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  1 | Fitness: 1.9969e-08 | Evals:  15146 | Time: 40.53s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:37<00:44, 60.70iter/s, Best=1.9900e-08, Evals=14322, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  2 | Fitness: 1.9900e-08 | Evals:  14322 | Time: 37.91s | Status: Success
+HeliosAS Fixed:  47%|█████████▊           | 2351/5000 [03:14<03:38, 12.12iter/s, Best=9.8217e+01, Evals=127047, SF=2001, LS=0, PE=6, BS=0, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:   8%|██                       | 417/5000 [00:04<00:46, 99.01iter/s, Best=1.8331e-08, Evals=6547, SF=318, LS=1, PE=0, BS=0, ExS=0.073, ExlS=0.007]Completed: Rosenbrock 100D Run  8 | Fitness: 9.8217e+01 | Evals: 127047 | Time: 194.05s | Status: Fail
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:19<00:26, 109.61iter/s, Best=1.9748e-08, Evals=12959, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  3 | Fitness: 1.9748e-08 | Evals:  12959 | Time: 19.17s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:19<00:26, 109.83iter/s, Best=1.9555e-08, Evals=13460, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  4 | Fitness: 1.9555e-08 | Evals:  13460 | Time: 19.14s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:19<00:26, 108.39iter/s, Best=1.9171e-08, Evals=13344, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  5 | Fitness: 1.9171e-08 | Evals:  13344 | Time: 19.39s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:19<00:26, 108.97iter/s, Best=1.9749e-08, Evals=12850, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  6 | Fitness: 1.9749e-08 | Evals:  12850 | Time: 19.28s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:19<00:27, 106.33iter/s, Best=1.8331e-08, Evals=13381, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  7 | Fitness: 1.8331e-08 | Evals:  13381 | Time: 19.77s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:20<00:27, 105.04iter/s, Best=1.9194e-08, Evals=13409, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  8 | Fitness: 1.9194e-08 | Evals:  13409 | Time: 20.00s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2201/5000 [00:21<00:26, 104.63iter/s, Best=1.9981e-08, Evals=14342, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 10D Run  9 | Fitness: 1.9981e-08 | Evals:  14342 | Time: 21.04s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2101/5000 [00:20<00:28, 102.85iter/s, Best=1.8616e-08, Evals=13559, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 10D Run 10 | Fitness: 1.8616e-08 | Evals:  13559 | Time: 20.44s | Status: Success
+HeliosAS Fixed:  45%|█████████▍           | 2251/5000 [02:46<03:23, 13.49iter/s, Best=9.8751e+01, Evals=145179, SF=2001, LS=0, PE=4, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 100D Run  9 | Fitness: 9.8751e+01 | Evals: 145179 | Time: 166.88s | Status: Fail
+HeliosAS Fixed:  45%|█████████▍           | 2251/5000 [01:45<02:08, 21.35iter/s, Best=9.8739e+01, Evals=139100, SF=2001, LS=0, PE=4, BS=0, ExS=0.410, ExlS=0.005] 
+Completed: Rosenbrock 100D Run 10 | Fitness: 9.8739e+01 | Evals: 139100 | Time: 105.51s | Status: Fail
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:55<01:04, 41.78iter/s, Best=1.9513e-08, Evals=31480, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+HeliosAS Fixed:  24%|█████▍                 | 1186/5000 [00:36<01:02, 60.98iter/s, Best=1.9833e-08, Evals=18462, SF=986, LS=1, PE=0, BS=3, ExS=0.207, ExlS=0.005]Completed:     Ackley 30D Run  1 | Fitness: 1.9513e-08 | Evals:  31480 | Time: 55.08s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:51<01:10, 41.08iter/s, Best=1.8893e-08, Evals=26204, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 30D Run  3 | Fitness: 1.8893e-08 | Evals:  26204 | Time: 51.15s | Status: Success
+HeliosAS Fixed:  52%|███████████▍          | 2601/5000 [00:59<00:55, 43.37iter/s, Best=1.9742e-08, Evals=38048, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+HeliosAS Fixed:  12%|██▊                     | 595/5000 [00:22<01:16, 57.77iter/s, Best=1.9996e-08, Evals=13032, SF=298, LS=1, PE=0, BS=0, ExS=0.069, ExlS=0.007]Completed:     Ackley 30D Run  2 | Fitness: 1.9742e-08 | Evals:  38048 | Time: 59.98s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:51<01:11, 40.65iter/s, Best=1.9771e-08, Evals=25984, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 30D Run  4 | Fitness: 1.9771e-08 | Evals:  25984 | Time: 51.68s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:51<01:10, 41.01iter/s, Best=1.9809e-08, Evals=24729, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 30D Run  5 | Fitness: 1.9809e-08 | Evals:  24729 | Time: 51.24s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:52<01:07, 41.72iter/s, Best=1.9833e-08, Evals=28324, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 30D Run  6 | Fitness: 1.9833e-08 | Evals:  28324 | Time: 52.77s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:52<01:07, 41.56iter/s, Best=1.9855e-08, Evals=29237, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 30D Run  7 | Fitness: 1.9855e-08 | Evals:  29237 | Time: 52.96s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [01:16<01:29, 30.11iter/s, Best=1.9996e-08, Evals=25447, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 30D Run  8 | Fitness: 1.9996e-08 | Evals:  25447 | Time: 76.45s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [01:39<01:47, 24.24iter/s, Best=1.8964e-08, Evals=32925, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 30D Run  9 | Fitness: 1.8964e-08 | Evals:  32925 | Time: 99.07s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:36<02:12, 21.84iter/s, Best=1.9797e-08, Evals=24268, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 30D Run 10 | Fitness: 1.9797e-08 | Evals:  24268 | Time: 96.20s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:51<02:33, 18.86iter/s, Best=1.9928e-08, Evals=54497, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 50D Run  1 | Fitness: 1.9928e-08 | Evals:  54497 | Time: 111.41s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:50<02:31, 19.09iter/s, Best=1.9883e-08, Evals=44248, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 50D Run  4 | Fitness: 1.9883e-08 | Evals:  44248 | Time: 110.10s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [02:00<02:00, 20.74iter/s, Best=1.9717e-08, Evals=56816, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 50D Run  2 | Fitness: 1.9717e-08 | Evals:  56816 | Time: 120.61s | Status: Success
+HeliosAS Fixed:  45%|█████████▉            | 2249/5000 [01:55<02:21, 19.48iter/s, Best=1.1736e-02, Evals=91620, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 50D Run  5 | Fitness: 1.1736e-02 | Evals:  91620 | Time: 115.42s | Status: Fail
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [01:26<01:41, 26.67iter/s, Best=1.9980e-08, Evals=45811, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 50D Run  7 | Fitness: 1.9980e-08 | Evals:  45811 | Time: 86.36s | Status: Success
+HeliosAS Fixed:  54%|███████████▉          | 2701/5000 [02:15<01:55, 19.93iter/s, Best=1.9470e-08, Evals=78670, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 50D Run  6 | Fitness: 1.9470e-08 | Evals:  78670 | Time: 135.86s | Status: Success
+HeliosAS Fixed:  52%|███████████▍          | 2601/5000 [01:40<01:32, 25.97iter/s, Best=1.9991e-08, Evals=70440, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 50D Run  8 | Fitness: 1.9991e-08 | Evals:  70440 | Time: 100.15s | Status: Success
+HeliosAS Fixed:  77%|████████████████▏    | 3868/5000 [03:09<00:55, 20.43iter/s, Best=7.9884e-03, Evals=156522, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 50D Run  3 | Fitness: 7.9884e-03 | Evals: 156522 | Time: 189.34s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [02:27<03:23, 14.27iter/s, Best=1.9742e-08, Evals=43991, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 50D Run 10 | Fitness: 1.9742e-08 | Evals:  43991 | Time: 147.25s | Status: Success
+HeliosAS Fixed:  62%|█████████████▋        | 3101/5000 [04:00<02:27, 12.90iter/s, Best=1.9934e-08, Evals=83434, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 50D Run  9 | Fitness: 1.9934e-08 | Evals:  83434 | Time: 240.36s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [04:20<05:58,  8.08iter/s, Best=1.9734e-08, Evals=63808, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 100D Run  1 | Fitness: 1.9734e-08 | Evals:  63808 | Time: 260.13s | Status: Success
+HeliosAS Fixed:  43%|█████████            | 2153/5000 [04:31<05:58,  7.93iter/s, Best=1.3759e-02, Evals=164858, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 100D Run  2 | Fitness: 1.3759e-02 | Evals: 164858 | Time: 271.39s | Status: Fail
+HeliosAS Fixed:  41%|████████▌            | 2035/5000 [03:59<05:48,  8.50iter/s, Best=1.5980e-02, Evals=168316, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 100D Run  4 | Fitness: 1.5980e-02 | Evals: 168316 | Time: 239.51s | Status: Fail
+HeliosAS Fixed:  45%|█████████▎           | 2227/5000 [04:12<05:14,  8.81iter/s, Best=1.3557e-02, Evals=168760, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 100D Run  3 | Fitness: 1.3557e-02 | Evals: 168760 | Time: 253.09s | Status: Fail
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [04:06<05:13,  8.92iter/s, Best=1.9878e-08, Evals=68696, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 100D Run  6 | Fitness: 1.9878e-08 | Evals:  68696 | Time: 246.75s | Status: Success
+HeliosAS Fixed:  42%|████████▉            | 2118/5000 [04:59<06:48,  7.06iter/s, Best=1.5431e-02, Evals=180572, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 100D Run  5 | Fitness: 1.5431e-02 | Evals: 180572 | Time: 299.97s | Status: Fail
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [03:51<05:19,  9.07iter/s, Best=1.9927e-08, Evals=58929, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:     Ackley 100D Run  7 | Fitness: 1.9927e-08 | Evals:  58929 | Time: 231.73s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [01:18<01:31, 29.50iter/s, Best=2.2204e-16, Evals=14690, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run  1 | Fitness: 2.2204e-16 | Evals:  14690 | Time: 78.02s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [01:16<01:46, 27.35iter/s, Best=2.2204e-16, Evals=13291, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run  2 | Fitness: 2.2204e-16 | Evals:  13291 | Time: 76.84s | Status: Success
+HeliosAS Fixed:  11%|██▌                     | 538/5000 [00:04<00:40, 109.83iter/s, Best=2.2204e-16, Evals=5716, SF=238, LS=2, PE=1, BS=0, ExS=0.057, ExlS=0.008] 
+Completed:   Griewank 10D Run  3 | Fitness: 1.1102e-16 | Evals:   8945 | Time: 70.36s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2201/5000 [00:20<00:26, 105.64iter/s, Best=1.1102e-16, Evals=10376, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:   Griewank 10D Run  4 | Fitness: 1.1102e-16 | Evals:  10376 | Time: 20.84s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:19<00:26, 109.20iter/s, Best=0.0000e+00, Evals=8800, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run  5 | Fitness: 0.0000e+00 | Evals:   8800 | Time: 19.26s | Status: Success
+HeliosAS Fixed:  42%|████████▋            | 2083/5000 [02:46<03:53, 12.50iter/s, Best=1.6559e-02, Evals=157722, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 100D Run  8 | Fitness: 1.6559e-02 | Evals: 157722 | Time: 166.60s | Status: Fail
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:20<00:23, 113.13iter/s, Best=2.2204e-16, Evals=8601, SF=2001, LS=2, PE=1, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run  6 | Fitness: 2.2204e-16 | Evals:   8601 | Time: 20.35s | Status: Success
+HeliosAS Fixed:  42%|█████████▏            | 2101/5000 [00:19<00:26, 109.97iter/s, Best=3.3307e-16, Evals=8689, SF=2001, LS=1, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run  7 | Fitness: 3.3307e-16 | Evals:   8689 | Time: 19.11s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2201/5000 [00:20<00:25, 109.34iter/s, Best=1.1102e-16, Evals=10100, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run  8 | Fitness: 1.1102e-16 | Evals:  10100 | Time: 20.14s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:20<00:24, 111.20iter/s, Best=3.3307e-16, Evals=9093, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run  9 | Fitness: 3.3307e-16 | Evals:   9093 | Time: 20.69s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:21<00:25, 107.22iter/s, Best=1.1102e-16, Evals=9453, SF=2001, LS=2, PE=1, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 10D Run 10 | Fitness: 1.1102e-16 | Evals:   9453 | Time: 21.46s | Status: Success
+HeliosAS Fixed:  42%|████████▊            | 2110/5000 [03:21<04:36, 10.45iter/s, Best=1.5711e-02, Evals=182959, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 100D Run  9 | Fitness: 1.5711e-02 | Evals: 182959 | Time: 201.92s | Status: Fail
+HeliosAS Fixed:  41%|████████▌            | 2045/5000 [03:51<05:34,  8.84iter/s, Best=1.7174e-02, Evals=164178, SF=2001, LS=0, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:     Ackley 100D Run 10 | Fitness: 1.7174e-02 | Evals: 164178 | Time: 231.37s | Status: Fail
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [02:39<03:06, 14.45iter/s, Best=3.3307e-16, Evals=15179, SF=2001, LS=2, PE=1, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  1 | Fitness: 3.3307e-16 | Evals:  15179 | Time: 159.28s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [02:39<03:07, 14.42iter/s, Best=2.1094e-15, Evals=15941, SF=2001, LS=2, PE=1, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  3 | Fitness: 2.1094e-15 | Evals:  15941 | Time: 159.55s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [02:40<03:07, 14.36iter/s, Best=2.4425e-15, Evals=27781, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  2 | Fitness: 2.4425e-15 | Evals:  27781 | Time: 160.23s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [02:40<02:53, 14.99iter/s, Best=8.8818e-16, Evals=15366, SF=2001, LS=3, PE=1, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  4 | Fitness: 8.8818e-16 | Evals:  15366 | Time: 160.20s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [02:39<03:07, 14.41iter/s, Best=1.4433e-15, Evals=15649, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  5 | Fitness: 1.4433e-15 | Evals:  15649 | Time: 159.67s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [02:40<02:54, 14.93iter/s, Best=1.9984e-15, Evals=27699, SF=2001, LS=3, PE=1, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  6 | Fitness: 1.9984e-15 | Evals:  27699 | Time: 160.86s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [02:00<02:00, 20.69iter/s, Best=1.6653e-15, Evals=16007, SF=2001, LS=5, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  7 | Fitness: 1.6653e-15 | Evals:  16007 | Time: 121.37s | Status: Success
+HeliosAS Fixed:  12%|██▉                     | 624/5000 [00:16<02:03, 35.40iter/s, Best=5.1070e-15, Evals=16064, SF=425, LS=2, PE=0, BS=0, ExS=0.095, ExlS=0.006] 
+Completed:   Griewank 30D Run  8 | Fitness: 1.3323e-15 | Evals:  27600 | Time: 81.24s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:39<00:50, 55.77iter/s, Best=1.6653e-15, Evals=15209, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run  9 | Fitness: 1.6653e-15 | Evals:  15209 | Time: 39.47s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [00:42<00:45, 56.82iter/s, Best=8.8818e-16, Evals=15974, SF=2001, LS=2, PE=2, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 30D Run 10 | Fitness: 8.8818e-16 | Evals:  15974 | Time: 42.26s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:56<01:11, 38.93iter/s, Best=2.9976e-15, Evals=41659, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  1 | Fitness: 2.9976e-15 | Evals:  41659 | Time: 56.54s | Status: Success
+HeliosAS Fixed:  44%|█████████▋            | 2201/5000 [00:55<01:10, 39.72iter/s, Best=5.1070e-15, Evals=36344, SF=2001, LS=2, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  3 | Fitness: 5.1070e-15 | Evals:  36344 | Time: 55.42s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [00:59<01:04, 40.04iter/s, Best=5.1070e-15, Evals=30194, SF=2001, LS=4, PE=0, BS=5, ExS=0.410, ExlS=0.005]
+Completed:   Griewank 50D Run  2 | Fitness: 5.1070e-15 | Evals:  30194 | Time: 59.99s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [01:01<01:01, 40.49iter/s, Best=1.3323e-15, Evals=20961, SF=2001, LS=3, PE=2, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  4 | Fitness: 1.3323e-15 | Evals:  20961 | Time: 61.78s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [00:58<01:09, 39.03iter/s, Best=3.5527e-15, Evals=54687, SF=2001, LS=3, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  5 | Fitness: 3.5527e-15 | Evals:  54687 | Time: 58.95s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [01:02<01:02, 39.85iter/s, Best=5.7732e-15, Evals=21871, SF=2001, LS=4, PE=2, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  7 | Fitness: 5.7732e-15 | Evals:  21871 | Time: 62.77s | Status: Success
+HeliosAS Fixed:  58%|████████████▊         | 2901/5000 [01:11<00:51, 40.70iter/s, Best=6.5503e-15, Evals=20607, SF=2001, LS=9, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  6 | Fitness: 6.5503e-15 | Evals:  20607 | Time: 71.31s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [01:03<01:08, 38.11iter/s, Best=5.4401e-15, Evals=21069, SF=2001, LS=4, PE=0, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  8 | Fitness: 5.4401e-15 | Evals:  21069 | Time: 63.01s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [01:25<01:25, 29.15iter/s, Best=2.6645e-15, Evals=19502, SF=2001, LS=3, PE=1, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 50D Run  9 | Fitness: 2.6645e-15 | Evals:  19502 | Time: 85.84s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [01:26<01:41, 26.60iter/s, Best=4.2188e-15, Evals=18489, SF=2001, LS=2, PE=1, BS=5, ExS=0.410, ExlS=0.005]
+Completed:   Griewank 50D Run 10 | Fitness: 4.2188e-15 | Evals:  18489 | Time: 86.53s | Status: Success
+HeliosAS Fixed:  44%|█████████▏           | 2201/5000 [02:26<03:06, 15.00iter/s, Best=3.0610e-06, Evals=229969, SF=2001, LS=0, PE=3, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 100D Run  1 | Fitness: 3.0610e-06 | Evals: 229969 | Time: 146.74s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [02:26<02:26, 17.09iter/s, Best=1.4433e-14, Evals=25161, SF=2001, LS=4, PE=2, BS=5, ExS=0.410, ExlS=0.005]
+Completed:   Griewank 100D Run  3 | Fitness: 1.4433e-14 | Evals:  25161 | Time: 146.33s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [02:30<02:29, 16.67iter/s, Best=1.0214e-14, Evals=61698, SF=2001, LS=3, PE=3, BS=5, ExS=0.410, ExlS=0.005]
+HeliosAS Fixed:  28%|██████▎               | 1424/5000 [01:21<02:38, 22.51iter/s, Best=1.1879e-14, Evals=19354, SF=1025, LS=3, PE=2, BS=5, ExS=0.215, ExlS=0.005]Completed:   Griewank 100D Run  2 | Fitness: 1.0214e-14 | Evals:  61698 | Time: 150.05s | Status: Success
+HeliosAS Fixed:  50%|███████████           | 2501/5000 [03:12<03:11, 13.02iter/s, Best=9.9920e-15, Evals=26111, SF=2001, LS=3, PE=3, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 100D Run  5 | Fitness: 9.9920e-15 | Evals:  26111 | Time: 192.07s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [03:40<03:59, 10.87iter/s, Best=5.1070e-15, Evals=29531, SF=2001, LS=2, PE=2, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 100D Run  6 | Fitness: 5.1070e-15 | Evals:  29531 | Time: 220.92s | Status: Success
+HeliosAS Fixed:  58%|████████████▊         | 2901/5000 [04:36<03:19, 10.51iter/s, Best=1.0769e-14, Evals=22340, SF=2001, LS=8, PE=2, BS=5, ExS=0.410, ExlS=0.005]
+Completed:   Griewank 100D Run  4 | Fitness: 1.0769e-14 | Evals:  22340 | Time: 276.05s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [03:53<04:33,  9.87iter/s, Best=7.4385e-15, Evals=62003, SF=2001, LS=2, PE=2, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 100D Run  8 | Fitness: 7.4385e-15 | Evals:  62003 | Time: 233.05s | Status: Success
+HeliosAS Fixed:  48%|██████████▌           | 2401/5000 [03:59<04:19, 10.02iter/s, Best=1.1879e-14, Evals=21024, SF=2001, LS=3, PE=2, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 100D Run  7 | Fitness: 1.1879e-14 | Evals:  21024 | Time: 239.87s | Status: Success
+HeliosAS Fixed:  46%|██████████            | 2301/5000 [03:25<04:01, 11.17iter/s, Best=6.1062e-15, Evals=21541, SF=2001, LS=2, PE=2, BS=5, ExS=0.410, ExlS=0.005]
+Completed:   Griewank 100D Run  9 | Fitness: 6.1062e-15 | Evals:  21541 | Time: 205.94s | Status: Success
+HeliosAS Fixed:  52%|███████████▍          | 2601/5000 [03:31<03:14, 12.31iter/s, Best=6.3283e-15, Evals=61411, SF=2001, LS=5, PE=2, BS=5, ExS=0.410, ExlS=0.005] 
+Completed:   Griewank 100D Run 10 | Fitness: 6.3283e-15 | Evals:  61411 | Time: 211.31s | Status: Success
+
+Completed 200 experiments in 3082.0 seconds.
+
+HeliosAS Results Summary:
+------------------------------------------------------------
+      Sphere 10D: Mean Fitness: 2.41e-16 | Success: 100.0% | Avg Evals: 12,806 | Early Stops: 10/10
+      Sphere 30D: Mean Fitness: 7.21e-16 | Success: 100.0% | Avg Evals: 24,518 | Early Stops: 10/10
+      Sphere 50D: Mean Fitness: 8.08e-05 | Success: 90.0% | Avg Evals: 53,876 | Early Stops: 10/10
+      Sphere 100D: Mean Fitness: 1.55e-05 | Success: 90.0% | Avg Evals: 52,982 | Early Stops: 10/10
+   Rastrigin 10D: Mean Fitness: 4.55e-14 | Success: 100.0% | Avg Evals: 10,922 | Early Stops: 10/10
+   Rastrigin 30D: Mean Fitness: 4.33e-07 | Success: 100.0% | Avg Evals: 38,626 | Early Stops: 10/10
+   Rastrigin 50D: Mean Fitness: 2.50e-13 | Success: 100.0% | Avg Evals: 63,765 | Early Stops: 10/10
+   Rastrigin 100D: Mean Fitness: 3.57e-03 | Success: 100.0% | Avg Evals: 97,460 | Early Stops: 10/10
+  Rosenbrock 10D: Mean Fitness: 2.54e-11 | Success: 100.0% | Avg Evals: 8,770 | Early Stops: 10/10
+  Rosenbrock 30D: Mean Fitness: 1.71e+01 | Success: 40.0% | Avg Evals: 98,849 | Early Stops: 10/10
+  Rosenbrock 50D: Mean Fitness: 4.86e+01 | Success: 0.0% | Avg Evals: 130,085 | Early Stops: 10/10
+  Rosenbrock 100D: Mean Fitness: 9.85e+01 | Success: 0.0% | Avg Evals: 138,693 | Early Stops: 10/10
+      Ackley 10D: Mean Fitness: 1.94e-08 | Success: 100.0% | Avg Evals: 13,677 | Early Stops: 10/10
+      Ackley 30D: Mean Fitness: 1.96e-08 | Success: 100.0% | Avg Evals: 28,665 | Early Stops: 10/10
+      Ackley 50D: Mean Fitness: 1.97e-03 | Success: 90.0% | Avg Evals: 72,605 | Early Stops: 10/10
+      Ackley 100D: Mean Fitness: 1.08e-02 | Success: 30.0% | Avg Evals: 137,880 | Early Stops: 10/10
+    Griewank 10D: Mean Fitness: 1.78e-16 | Success: 100.0% | Avg Evals: 10,204 | Early Stops: 10/10
+    Griewank 30D: Mean Fitness: 1.48e-15 | Success: 100.0% | Avg Evals: 19,240 | Early Stops: 10/10
+    Griewank 50D: Mean Fitness: 4.27e-15 | Success: 100.0% | Avg Evals: 28,538 | Early Stops: 10/10
+    Griewank 100D: Mean Fitness: 3.06e-07 | Success: 100.0% | Avg Evals: 56,079 | Early Stops: 10/10
+
+Results saved to benchmark_results/
+- helios_as_raw_results.csv
+- helios_as_convergence_curves.csv
+- helios_as_summary_statistics.csv
+
+Total execution time: 3082.0 seconds

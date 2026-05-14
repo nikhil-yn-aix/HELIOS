@@ -1,0 +1,503 @@
+{
+  "benchmark_summary": {
+    "overall_winner": "HeliosAS",
+    "total_experiments": 1000,
+    "algorithms_tested": 5,
+    "functions_tested": 5,
+    "dimensions_tested": 4
+  },
+  "performance_summary": {
+    "win_percentages": {
+      "HeliosAS": 50.0,
+      "CMAES": 35.0,
+      "COBYLA": 5.0,
+      "DifferentialEvolution": 10.0
+    },
+    "overall_mean_fitness": {
+      "HeliosAS": 8.213474320966295,
+      "CMAES": 20.39335815283744,
+      "COBYLA": 64.65055914696903,
+      "DifferentialEvolution": 80.6418775846752,
+      "PSO": 24467.440233150144
+    },
+    "success_rates": {
+      "HeliosAS": 0.82,
+      "DifferentialEvolution": 0.51,
+      "PSO": 0.055,
+      "COBYLA": 0.355,
+      "CMAES": 0.735
+    }
+  },
+  "efficiency_summary": {
+    "avg_evaluations_used": {
+      "HeliosAS": 54911.9,
+      "DifferentialEvolution": 404447.825,
+      "PSO": 1000000.0,
+      "COBYLA": 24810.575,
+      "CMAES": 38850.2
+    },
+    "avg_execution_time": {
+      "HeliosAS": 119.91487665772438,
+      "DifferentialEvolution": 53.88674674272537,
+      "PSO": 55.19679411888123,
+      "COBYLA": 27.222871214151382,
+      "CMAES": 69.44696611046791
+    }
+  },
+  "detailed_rankings": {
+    "overall_performance": {
+      "CMAES": {
+        "mean": 20.393358,
+        "median": 0.0,
+        "std": 56.812864,
+        "min": 0.0,
+        "max": 314.406214,
+        "rank_by_mean": 2.0
+      },
+      "COBYLA": {
+        "mean": 64.650559,
+        "median": 4.011914,
+        "std": 140.116439,
+        "min": 0.0,
+        "max": 661.644111,
+        "rank_by_mean": 3.0
+      },
+      "DifferentialEvolution": {
+        "mean": 80.641878,
+        "median": 0.004674,
+        "std": 202.241734,
+        "min": 0.0,
+        "max": 921.934346,
+        "rank_by_mean": 4.0
+      },
+      "PSO": {
+        "mean": 24467.440233,
+        "median": 20.16748,
+        "std": 102513.074559,
+        "min": 0.0,
+        "max": 662291.849486,
+        "rank_by_mean": 5.0
+      },
+      "HeliosAS": {
+        "mean": 8.213474,
+        "median": 0.0,
+        "std": 23.736461,
+        "min": 0.0,
+        "max": 98.839254,
+        "rank_by_mean": 1.0
+      }
+    },
+    "function_wise": {
+      "Sphere": {
+        "CMAES": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "rank": 1.5
+        },
+        "COBYLA": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "rank": 1.5
+        },
+        "DifferentialEvolution": {
+          "mean": 0.002627,
+          "median": 0.0,
+          "std": 0.007257,
+          "rank": 4.0
+        },
+        "PSO": {
+          "mean": 765.969096,
+          "median": 75.509208,
+          "std": 1309.585862,
+          "rank": 5.0
+        },
+        "HeliosAS": {
+          "mean": 2.4e-05,
+          "median": 0.0,
+          "std": 0.000129,
+          "rank": 3.0
+        }
+      },
+      "Rastrigin": {
+        "CMAES": {
+          "mean": 101.236871,
+          "median": 72.134393,
+          "std": 89.931835,
+          "rank": 2.0
+        },
+        "COBYLA": {
+          "mean": 264.7822,
+          "median": 201.975824,
+          "std": 210.45813,
+          "rank": 4.0
+        },
+        "DifferentialEvolution": {
+          "mean": 325.242475,
+          "median": 205.748447,
+          "std": 342.784983,
+          "rank": 5.0
+        },
+        "PSO": {
+          "mean": 187.216122,
+          "median": 104.983338,
+          "std": 191.745671,
+          "rank": 3.0
+        },
+        "HeliosAS": {
+          "mean": 0.000893,
+          "median": 0.0,
+          "std": 0.002157,
+          "rank": 1.0
+        }
+      },
+      "Rosenbrock": {
+        "CMAES": {
+          "mean": 0.697657,
+          "median": 0.0,
+          "std": 1.534078,
+          "rank": 1.0
+        },
+        "COBYLA": {
+          "mean": 32.160454,
+          "median": 0.01788,
+          "std": 59.767529,
+          "rank": 2.0
+        },
+        "DifferentialEvolution": {
+          "mean": 68.503645,
+          "median": 0.0,
+          "std": 105.166958,
+          "rank": 4.0
+        },
+        "PSO": {
+          "mean": 121367.442292,
+          "median": 11437.851998,
+          "std": 203917.582754,
+          "rank": 5.0
+        },
+        "HeliosAS": {
+          "mean": 41.063257,
+          "median": 38.463698,
+          "std": 38.61881,
+          "rank": 3.0
+        }
+      },
+      "Ackley": {
+        "CMAES": {
+          "mean": 0.028879,
+          "median": 0.0,
+          "std": 0.182645,
+          "rank": 2.0
+        },
+        "COBYLA": {
+          "mean": 19.437332,
+          "median": 19.48979,
+          "std": 0.180303,
+          "rank": 5.0
+        },
+        "DifferentialEvolution": {
+          "mean": 9.449345,
+          "median": 9.264213,
+          "std": 9.571011,
+          "rank": 4.0
+        },
+        "PSO": {
+          "mean": 7.043295,
+          "median": 7.619922,
+          "std": 2.984341,
+          "rank": 3.0
+        },
+        "HeliosAS": {
+          "mean": 0.003197,
+          "median": 0.0,
+          "std": 0.00615,
+          "rank": 1.0
+        }
+      },
+      "Griewank": {
+        "CMAES": {
+          "mean": 0.003385,
+          "median": 0.0,
+          "std": 0.006769,
+          "rank": 2.0
+        },
+        "COBYLA": {
+          "mean": 6.87281,
+          "median": 0.007396,
+          "std": 18.497193,
+          "rank": 4.0
+        },
+        "DifferentialEvolution": {
+          "mean": 0.011296,
+          "median": 0.009857,
+          "std": 0.012032,
+          "rank": 3.0
+        },
+        "PSO": {
+          "mean": 9.530361,
+          "median": 1.858394,
+          "std": 13.922757,
+          "rank": 5.0
+        },
+        "HeliosAS": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "rank": 1.0
+        }
+      }
+    },
+    "dimension_wise": {
+      "10D": {
+        "CMAES": {
+          "mean": 3.686881,
+          "median": 0.0,
+          "std": 7.760318,
+          "rank": 3.0
+        },
+        "COBYLA": {
+          "mean": 19.395912,
+          "median": 10.84511,
+          "std": 23.13847,
+          "rank": 5.0
+        },
+        "DifferentialEvolution": {
+          "mean": 0.124453,
+          "median": 0.0,
+          "std": 0.590841,
+          "rank": 2.0
+        },
+        "PSO": {
+          "mean": 8.805436,
+          "median": 1.584232,
+          "std": 23.545111,
+          "rank": 4.0
+        },
+        "HeliosAS": {
+          "mean": 0.0,
+          "median": 0.0,
+          "std": 0.0,
+          "rank": 1.0
+        }
+      },
+      "30D": {
+        "CMAES": {
+          "mean": 9.969897,
+          "median": 0.0,
+          "std": 20.435432,
+          "rank": 2.0
+        },
+        "COBYLA": {
+          "mean": 34.454068,
+          "median": 0.013289,
+          "std": 62.852973,
+          "rank": 4.0
+        },
+        "DifferentialEvolution": {
+          "mean": 21.493702,
+          "median": 0.0,
+          "std": 43.405684,
+          "rank": 3.0
+        },
+        "PSO": {
+          "mean": 632.328773,
+          "median": 31.406214,
+          "std": 1570.650923,
+          "rank": 5.0
+        },
+        "HeliosAS": {
+          "mean": 3.419618,
+          "median": 0.0,
+          "std": 9.354629,
+          "rank": 1.0
+        }
+      },
+      "50D": {
+        "CMAES": {
+          "mean": 19.58152,
+          "median": 0.0,
+          "std": 39.836709,
+          "rank": 2.0
+        },
+        "COBYLA": {
+          "mean": 61.142078,
+          "median": 0.012837,
+          "std": 112.364448,
+          "rank": 3.0
+        },
+        "DifferentialEvolution": {
+          "mean": 75.30848,
+          "median": 11.257525,
+          "std": 125.578862,
+          "rank": 4.0
+        },
+        "PSO": {
+          "mean": 8531.51426,
+          "median": 147.453388,
+          "std": 21035.151476,
+          "rank": 5.0
+        },
+        "HeliosAS": {
+          "mean": 9.722677,
+          "median": 0.0,
+          "std": 19.641929,
+          "rank": 1.0
+        }
+      },
+      "100D": {
+        "CMAES": {
+          "mean": 48.335135,
+          "median": 0.0,
+          "std": 99.250241,
+          "rank": 2.0
+        },
+        "COBYLA": {
+          "mean": 143.610178,
+          "median": 19.516166,
+          "std": 230.707983,
+          "rank": 3.0
+        },
+        "DifferentialEvolution": {
+          "mean": 225.640875,
+          "median": 19.038817,
+          "std": 341.743371,
+          "rank": 4.0
+        },
+        "PSO": {
+          "mean": 88697.112463,
+          "median": 494.016948,
+          "std": 191246.59563,
+          "rank": 5.0
+        },
+        "HeliosAS": {
+          "mean": 19.711602,
+          "median": 2e-06,
+          "std": 39.816351,
+          "rank": 1.0
+        }
+      }
+    },
+    "success_rates": {
+      "CMAES": {
+        "mean": 0.735,
+        "sum": 147,
+        "count": 200,
+        "success_percentage": 73.5
+      },
+      "COBYLA": {
+        "mean": 0.355,
+        "sum": 71,
+        "count": 200,
+        "success_percentage": 35.5
+      },
+      "DifferentialEvolution": {
+        "mean": 0.51,
+        "sum": 102,
+        "count": 200,
+        "success_percentage": 51.0
+      },
+      "PSO": {
+        "mean": 0.055,
+        "sum": 11,
+        "count": 200,
+        "success_percentage": 5.5
+      },
+      "HeliosAS": {
+        "mean": 0.82,
+        "sum": 164,
+        "count": 200,
+        "success_percentage": 82.0
+      }
+    },
+    "efficiency": {
+      "CMAES": {
+        "mean": 38850.0,
+        "std": 89388.0,
+        "min": 2880,
+        "max": 449276
+      },
+      "COBYLA": {
+        "mean": 24811.0,
+        "std": 61554.0,
+        "min": 182,
+        "max": 530666
+      },
+      "DifferentialEvolution": {
+        "mean": 404448.0,
+        "std": 392159.0,
+        "min": 1959,
+        "max": 1000000
+      },
+      "PSO": {
+        "mean": 1000000.0,
+        "std": 0.0,
+        "min": 1000000,
+        "max": 1000000
+      },
+      "HeliosAS": {
+        "mean": 54912.0,
+        "std": 51829.0,
+        "min": 6466,
+        "max": 229969
+      }
+    },
+    "execution_time": {
+      "CMAES": {
+        "mean": 69.45,
+        "std": 207.23,
+        "min": 0.3,
+        "max": 1079.24
+      },
+      "COBYLA": {
+        "mean": 27.22,
+        "std": 69.53,
+        "min": 0.01,
+        "max": 300.07
+      },
+      "DifferentialEvolution": {
+        "mean": 53.89,
+        "std": 57.88,
+        "min": 0.12,
+        "max": 200.25
+      },
+      "PSO": {
+        "mean": 55.2,
+        "std": 9.67,
+        "min": 39.72,
+        "max": 77.85
+      },
+      "HeliosAS": {
+        "mean": 119.91,
+        "std": 96.47,
+        "min": 17.07,
+        "max": 423.85
+      }
+    },
+    "metadata": {
+      "total_experiments": 1000,
+      "algorithms_tested": [
+        "HeliosAS",
+        "DifferentialEvolution",
+        "PSO",
+        "COBYLA",
+        "CMAES"
+      ],
+      "functions_tested": [
+        "Sphere",
+        "Rastrigin",
+        "Rosenbrock",
+        "Ackley",
+        "Griewank"
+      ],
+      "dimensions_tested": [
+        "10",
+        "30",
+        "50",
+        "100"
+      ],
+      "analysis_date": "2025-07-01T14:43:03.456883"
+    }
+  }
+}

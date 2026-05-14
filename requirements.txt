@@ -1,0 +1,22 @@
+# Core scientific computing
+numpy==1.26.4
+scipy==1.15.2
+pandas==2.2.3
+
+# Visualization
+matplotlib==3.10.1
+seaborn==0.13.2
+
+# Utilities
+tqdm
+scikit-learn
+psutil
+
+# GPU support (requires CUDA 12.4)
+# Install with: pip install cupy-cuda12x==13.4.1
+# For CUDA 11.x: pip install cupy-cuda11x
+# Check your version: nvcc --version
+cupy-cuda12x==13.4.1
+
+# Baseline comparison algorithms
+cmaes
